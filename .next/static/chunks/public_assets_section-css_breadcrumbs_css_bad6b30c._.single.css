@@ -1,0 +1,51 @@
+/* [project]/public/assets/section-css/breadcrumbs.css [app-client] (css) */
+.ed-breadcrumbs {
+  padding: 90px 0;
+}
+
+.ed-breadcrumbs__content {
+  text-align: center;
+}
+
+.ed-breadcrumbs__title {
+  margin-bottom: 24px;
+  font-size: 36px;
+  line-height: 30px;
+}
+
+.ed-breadcrumbs__menu {
+  justify-content: center;
+  gap: 6px;
+  display: flex;
+}
+
+.ed-breadcrumbs__menu li {
+  color: var(--ed-paragraph-color);
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.ed-breadcrumbs__menu li.active a {
+  color: #df4343;
+  font-weight: 500;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.99px) {
+  .ed-breadcrumbs {
+    padding: 80px 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .ed-breadcrumbs {
+    padding: 56px 0;
+  }
+
+  .ed-breadcrumbs__title {
+    margin-bottom: 16px;
+    font-size: 32px;
+  }
+}
+
+/*# sourceMappingURL=public_assets_section-css_breadcrumbs_css_bad6b30c._.single.css.map*/
