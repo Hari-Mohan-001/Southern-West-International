@@ -47,11 +47,14 @@
   margin-bottom: 12px;
 }
 
+
+
 .ed-contact__info-content a {
   color: var(--ed-title-color);
   font-size: 20px;
   font-weight: 400;
   line-height: 22px;
+    
 }
 .ed-contact__info-content a:hover {
   color: var(--ed-primary-color);

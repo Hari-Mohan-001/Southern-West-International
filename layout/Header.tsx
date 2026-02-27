@@ -15,12 +15,12 @@ const Header = ({ header }: { header: number }) => {
     header === 1
       ? Header1
       : header === 2
-      ? Header2
-      : header === 3
-      ? Header3
-      : header === 4
-      ? Header4
-      : Header1;
+        ? Header2
+        : header === 3
+          ? Header3
+          : header === 4
+            ? Header4
+            : Header1;
 
   return (
     <Fragment>
@@ -61,36 +61,6 @@ const Header1 = ({
                 />
               </Link>
             </div>
-            {/* Category Dropdown */}
-
-            {/* <div className="ed-topbar__search-widget">
-              <div className="ed-topbar__category">
-                <select className="nice-select">
-                  <option data-display="All Categories">All Categories</option>
-                  <option value={1}>Business</option>
-                  <option value={2}>Marketing</option>
-                  <option value={3}>Design</option>
-                  <option value={4}>Finance</option>
-                  <option value={5}>Lifestyle</option>
-                  <option value={6}>Development</option>
-                  <option value={7}>Photography</option>
-                </select>
-              </div>
-              <div className="ed-topbar__search">
-                <form action="#" method="post">
-                  <input
-                    type="search"
-                    name="search"
-                    placeholder="Search your courses..."
-                    required
-                  />
-                  <button type="submit">
-                    Search
-                    <i className="fi-rr-search" />
-                  </button>
-                </form>
-              </div>
-            </div> */}
 
             {/* Topbar Info */}
             <div className="ed-topbar__info">
@@ -98,12 +68,6 @@ const Header1 = ({
               <ul className="ed-topbar__info-social">
                 <Social />
               </ul>
-              {/* Topbar Button */}
-{/*               
-              <div className="ed-topbar__info-buttons">
-                <LoginRegisterButton />
-              </div> */}
-              {/* Mobile Menu Button */}
               <button
                 type="button"
                 className="mobile-menu-offcanvas-toggler"
@@ -131,35 +95,21 @@ const Header1 = ({
                 <div className="ed-header__right">
                   <ul className="ed-header__contact">
                     <li>
-                      <a href="tel:+91 9037 396 016">+91 9037396016</a>
+                     <a href="tel:+919037396016">+91 9037396016</a>
                     </li>
                     <li>
-                      <a href="mailto:info@southernwestinternational.com
-">
-                       info@southernwestinternational.com
-
+                      <a
+                        href="mailto:southernwestinternational@gmail.com
+"
+                      >
+                        southernwestinternational@gmail.com
                       </a>
                     </li>
                   </ul>
                   <div className="ed-header__action">
-                    {/* <div className="ed-header__cart"> */}
-                      {/* <button
-                        type="button"
-                        data-bs-toggle="offcanvas"
-                        data-bs-target="#edSidebarCart"
-                        aria-controls="offcanvasRight"
-                        className="ed-topbar__action-icon"
-                      >
-                        <Image
-                          width={25}
-                          height={25}
-                          src="/assets/images/icons/icon-grey-bag.svg"
-                          alt="icon-grey-bag"
-                        />
-                        <span>3</span>
-                      </button> */}
+                   
                     {/* </div> */}
-                    <div className="ed-header__menu">
+                    {/* <div className="ed-header__menu">
                       <button
                         type="button"
                         data-bs-toggle="offcanvas"
@@ -174,7 +124,7 @@ const Header1 = ({
                           alt="icon-grey-menu-3-line"
                         />
                       </button>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -484,81 +434,25 @@ const Nav = () => {
     <nav className="ed-header__navigation">
       <ul className="ed-header__menu">
         <li>
-          <a href="/">
-            Home
-            
-          </a>
-          {/* <ul className="sub-menu">
-            <li>
-              <Link href="/">Home One</Link>
-            </li>
-            <li>
-              <Link href="/index-2">Home Two</Link>
-            </li>
-            <li>
-              <Link href="/index-3">Home Three</Link>
-            </li>
-            <li>
-              <Link href="/index-4">Home Four</Link>
-            </li>
-          </ul> */}
+          <Link href="/">Home</Link>
         </li>
         <li>
-          <a href="javascript:void(0)">
-            Countries
-            {/* <i className="fi fi-ss-angle-small-down" /> */}
-          </a>
-          <ul className="sub-menu">
-            <li>
-              <Link href="/course-1">Course One</Link>
-            </li>
-            <li>
-              <Link href="/course-2">Course Two</Link>
-            </li>
-            <li>
-              <Link href="/course-details">Course Details</Link>
-            </li>
-          </ul>
+          <Link href="/countries"> Countries</Link>
         </li>
         <li>
-          <a href="javascript:void(0)">
-            Services
-            <i className="fi fi-ss-angle-small-down" />
-          </a>
-          <ul className="sub-menu">
-            <li>
-              <Link href="/instructor">Instructors</Link>
-            </li>
-            <li>
-              <Link href="/instructor-details">Instructor Details</Link>
-            </li>
-            <li>
-              <Link href="/faq">Faq</Link>
-            </li>
-            <li>
-              <Link href="/404">404 Error</Link>
-            </li>
-          </ul>
-        </li>
-        <li>
-          <a href="javascript:void(0)">
-            News
-            <i className="fi fi-ss-angle-small-down" />
-          </a>
-          <ul className="sub-menu">
-            <li>
-              <Link href="/blog">Blog </Link>
-            </li>
-            <li>
-              <Link href="/blog-details">Blog Details</Link>
-            </li>
-          </ul>
+          <Link href="/services"> Services </Link> 
         </li>
         <li>
           <Link href="/about-1">About</Link>
-        </li>
+        </li>  
         <li>
           <Link href="/contact">Contact</Link>
+        </li>
+        <li>
+          <Link href="/faq">
+            Faq
+          </Link>
+        
         </li>
       </ul>
     </nav>

@@ -1,0 +1,19 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/about-1/page": "/about-1",
+  "/blog-details/page": "/blog-details",
+  "/blog/page": "/blog",
+  "/contact/page": "/contact",
+  "/countries/[name]/page": "/countries/[name]",
+  "/countries/page": "/countries",
+  "/course-details/page": "/course-details",
+  "/faq/page": "/faq",
+  "/icon.png/route": "/icon.png",
+  "/index-2/page": "/index-2",
+  "/index-3/page": "/index-3",
+  "/index-4/page": "/index-4",
+  "/instructor-details/page": "/instructor-details",
+  "/instructor/page": "/instructor",
+  "/page": "/",
+  "/services/page": "/services"
+}

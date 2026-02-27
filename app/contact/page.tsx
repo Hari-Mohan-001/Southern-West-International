@@ -10,15 +10,7 @@ const page = () => {
       icon: "icon-white-phone.svg",
       title: "Phone",
       type: "tel",
-      info: ["+64 939-39-0239", "+54 939-739-02399"],
-      extraLink: "",
-    },
-    {
-      id: 2,
-      icon: "icon-white-message.svg",
-      title: "Email",
-      type: "email",
-      info: ["helloeduna@gmail.com", "eduna@gmail.com"],
+      info: ["+91 9037396016", "+91 9496349771"],
       extraLink: "",
     },
     {
@@ -26,9 +18,18 @@ const page = () => {
       icon: "icon-white-map.svg",
       title: "Address",
       type: "address",
-      info: ["1234 East 27th Street, New York, NY 101010"],
+      info: ["opp. st Stephens church (above RT office) ,college road , pathanamthitta"],
       extraLink: "#",
     },
+    {
+      id: 2,
+      icon: "icon-white-message.svg",
+      title: "Email",
+      type: "email",
+      info: ["southernwestinternational@gmail.com"],
+      extraLink: "",
+    },
+    
   ];
   return (
     <EdunaLayout>
@@ -50,7 +51,7 @@ const page = () => {
                       alt={item.title}
                     />
                   </div>
-                  <div className="ed-contact__card-info">
+                  <div className="ed-contact__card-info" style={{overflowWrap:"break-word"}}>
                     {item.info.map((info) => (
                       <a
                         href={

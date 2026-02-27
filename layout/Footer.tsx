@@ -53,20 +53,20 @@ const FooterContent = () => {
   const contact = [
     {
       icon: "assets/images/icons/icon-phone-blue.svg",
-      title: "24/7 Support",
+      title: "Connect With Us",
       phone: "+91 9037 396 016",
       link: "tel:+532 321 33 33",
     },
     {
       icon: "assets/images/icons/icon-envelope-blue.svg",
       title: "Send Message",
-      email: "info@southernwestinternational.com",
-      link: "mailto:eduna@gmail.com",
+      email: "southernwestinternational@gmail.com",
+      link: "mailto:southernwestinternational@gmail.com",
     },
     {
       icon: "assets/images/icons/icon-location-blue.svg",
       title: "Our Location",
-      address: "College road, Pathanamthitta",
+      address: "opp. st Stephens church (above RT office) ,college road , pathanamthitta",
       link: "#",
     },
   ];
@@ -173,7 +173,7 @@ const FooterContent = () => {
                     <Link href="/contact">Contact Us</Link>
                   </li>
                   <li>
-                    <Link href="/blog">Our News</Link>
+                    <Link href="/home">Our News</Link>
                   </li>
                   <li>
                     <Link href="/faq">FAQ’s</Link>
@@ -241,13 +241,8 @@ const FooterContent = () => {
           <div className="row">
             <div className="col-12">
               <p className="ed-footer__copyright-text">
-                Copyright {new Date().getFullYear()} Southern West International
-                {/* <a
-                  href="https://themeforest.net/user/bizantheme"
-                  target="_blank"
-                >
-                  BizanTheme
-                </a> */}
+                Copyright © {new Date().getFullYear()} Southern West International
+             
                 . All Rights Reserved
               </p>
             </div>

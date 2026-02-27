@@ -16,7 +16,7 @@ export const Testimonial1 = () => {
                   OUR TESTIMONIAL
                 </span>
                 <h3 className="ed-section-head__title ed-split-text left">
-                  What Student Say About Our Online Education Course
+                  Get the genuine review from our students
                 </h3>
               </div>
               <div className="owl-carousel ed-testimonial__slider">

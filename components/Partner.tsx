@@ -72,6 +72,12 @@ export const Partner2 = ({
     { id: 4, logo: "4.svg" },
     { id: 5, logo: "5.svg" },
     { id: 6, logo: "6.svg" },
+    { id: 7, logo: "7.svg" },
+    { id: 8, logo: "8.svg" },
+    { id: 9, logo: "9.svg" },
+    { id: 10, logo: "10.svg" },
+    { id: 11, logo: "11.svg" },
+    { id: 12, logo: "12.svg" },
   ];
   return (
     <section className={containerClass}>
@@ -79,15 +85,15 @@ export const Partner2 = ({
         <div className="row align-items-center">
           <div className="col-lg-5 col-12">
             <div className="ed-section-head">
-              <span className="ed-section-head__sm-title">OUR SPONSOR</span>
+              <span className="ed-section-head__sm-title">Our Global University Network</span>
               <h3 className="ed-section-head__title m-0">
-                Get in touch with the <br />
-                <span> 250+ </span> companies who Collaboration us
+                We proudly collaborate with <br />
+                 with leading universities and institutions across the <span> UK, Canada, Australia,</span> and other top study destinations worldwide
               </h3>
             </div>
           </div>
-          <div className="col-lg-7 col-12">
-            <div className="ed-partner__slider--style2">
+          <div className="col-lg-7 col-12"style={{backgroundColor:"rgb(211, 183, 151)", borderRadius:"20px", paddingTop:"10px", paddingBottom:"10px",boxShadow:"0 8px 24px rgba(0, 0, 0, 0.08)"}} >
+            <div className="ed-partner__slider--style2" style={{ paddingTop:"5px", paddingBottom:"5px"}}>
               <Swiper
                 {...sliderProps.partner__slider_2}
                 className="swiper ed-partner__slider-2"

@@ -3,13 +3,13 @@ import Counter from "./Counter";
 
 export const Funfact1 = () => {
   const funfacts: { id: number; name: string; value: number }[] = [
-    { id: 1, name: "Student enrolled", value: 5923 },
-    { id: 2, name: "Classes completed", value: 8497 },
-    { id: 3, name: "Learners report", value: 7554 },
-    { id: 4, name: "Top instructors", value: 2755 },
+    { id: 1, name: "Successfull Students", value: 150 },
+    { id: 2, name: "Countries", value: 30 },
+    { id: 3, name: "Universities", value: 800 },
+    { id: 4, name: "Courses", value: 500 },
   ];
   return (
-    <section className="ed-funfact">
+    <section className="ed-funfact" style={{marginBottom:"50px"}} >
       <div className="container ed-container position-relative overflow-hidden">
         <div className="ed-funfact__shapes">
           <Image
@@ -38,7 +38,7 @@ export const Funfact1 = () => {
               height={316}
               sizes="554px"
               style={{ width: "554px", height: "316px" }}
-              src="/assets/images/funfact/funfact-1/funfact-img.png"
+              src="/assets/images/funfact/funfact-1/funfact-img.jpg"
               alt="funfact-img"
             />
           </div>

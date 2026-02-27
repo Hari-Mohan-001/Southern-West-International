@@ -1,7 +1,6 @@
 import { About2 } from "@/components/About";
 import { Blog1 } from "@/components/Blog";
 import { Category1 } from "@/components/Category";
-import { Course2 } from "@/components/Course";
 import { Faq1 } from "@/components/Faq";
 import { Funfact2 } from "@/components/Funfact";
 import { Hero2 } from "@/components/Hero";
@@ -25,7 +24,7 @@ const page = () => {
         <About2 />
         {/* End About Area */}
       </div>
-      <Course2 />
+    
       <div className="section-bg position-relative">
         <div className="section-bg__img">
           <Image

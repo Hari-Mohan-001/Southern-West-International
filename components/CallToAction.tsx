@@ -63,7 +63,7 @@ export const CallToAction1 = () => {
                   </p>
                 </div>
                 <div className="ed-call-action__content-btn">
-                  <Link href="/course-1" className="ed-btn">
+                  <Link href="/contact" className="ed-btn">
                     Start you Study abroad journey
                     <i className="fi fi-rr-arrow-small-right" />
                   </Link>

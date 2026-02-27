@@ -379,6 +379,8 @@
   font-size: 14px;
   font-weight: 500;
   line-height: 28px;
+  
+
 }
 .ed-header__contact li a:hover {
   color: var(--ed-primary-color);

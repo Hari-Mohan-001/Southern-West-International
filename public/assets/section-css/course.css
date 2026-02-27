@@ -20,7 +20,8 @@
 }
 
 .ed-course__card {
-  background: var(--ed-offwhite-color);
+  /* background: var(--ed-offwhite-color); */
+  background-color: #6fc3dd;
   border-radius: 8px;
   position: relative;
   margin-top: 30px;
@@ -57,8 +58,12 @@
   background: var(--ed-secondary-color) !important;
   color: var(--ed-white-color) !important;
 }
-.ed-course__body {
-  padding: 32px 20px;
+.ed-course__bodymain {
+  display: flex;
+align-items: center;
+justify-content: center;
+
+
 }
 .ed-course__lesson {
   display: flex;
@@ -95,7 +100,25 @@
   font-size: 20px;
   font-weight: 700;
   line-height: 32px;
+
+
 }
+.ed-course__titlelandingpage {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+  background-color: #eaf3ff;
+  border-radius: 35px;
+ padding: 5px 15px;
+  transition: all 0.3s ease;
+}
+
+.ed-course__titlelandingpage:hover {
+  background-color: #2563eb;   /* New background */
+  color: #ffffff;              /* Text color change */
+}
+
+
 .ed-course__title h5 {
   margin-bottom: 12px;
   line-height: 32px;
@@ -760,3 +783,57 @@
 /*================================================================================================
     End Course CSS
 ===================================================================================================*/
+
+
+.course-item {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  margin-bottom: 14px;
+}
+
+.course-content {
+  flex: 1;
+}
+
+.course-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.course-name {
+  font-weight: 600;
+  font-size: 16px;
+  color: #1a1a1a;
+}
+
+.degrees {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.degree-badge {
+  background-color: #eaf3ff;
+  color: #0d6efd;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 500;
+  white-space: nowrap;
+  transition: 0.2s ease;
+}
+
+.degree-badge:hover {
+  background-color: #0d6efd;
+  color: white;
+}
+
+.course-description {
+  margin-top: 6px;
+  font-size: 14px;
+  color: #666;
+  line-height: 1.5;
+}

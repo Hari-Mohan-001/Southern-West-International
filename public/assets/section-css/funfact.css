@@ -6,7 +6,7 @@
   position: relative;
 }
 .ed-funfact__inner {
-  background: var(--ed-primary-color);
+  background: rgb(65, 50, 50);
   border-radius: 8px;
   position: relative;
   display: flex;

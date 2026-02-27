@@ -44,7 +44,7 @@ const Contact = () => {
       </div>
       <div className="container ed-container">
         <div className="row align-items-end">
-          <div className="col-lg-3 col-12">
+          <div className="col-lg-4 col-12">
             <div className="ed-contact__info-wrapper">
               <h4 className="ed-contact__info-title">Contact</h4>
               {/* Sigle Info  */}
@@ -60,8 +60,8 @@ const Contact = () => {
                   />
                 </div>
                 <div className="ed-contact__info-content">
-                  <span>24/7 Support</span>
-                  <a href="tel:+532 321 33 33">+532 321 33 33</a>
+                  <span>Connect with us</span>
+                  <a href="tel:+532 321 33 33">+91 9037396016</a>
                 </div>
               </div>
               {/* Sigle Info  */}
@@ -76,9 +76,9 @@ const Contact = () => {
                     alt="icon-envelope-blue"
                   />
                 </div>
-                <div className="ed-contact__info-content">
+                <div className="ed-contact__info-content" >
                   <span>Send Message</span>
-                  <a href="mailto:eduna@gmail.com">eduna@gmail.com3</a>
+                  <a   href="mailto:southernwestinternational@gmail.com">southernwestinternational@gmail.com</a>
                 </div>
               </div>
               {/* Sigle Info  */}
@@ -94,13 +94,13 @@ const Contact = () => {
                   />
                 </div>
                 <div className="ed-contact__info-content">
-                  <span>Our Locati0n</span>
-                  <a href="#">32/Jenin, London</a>
+                  <span>Our Location</span>
+                  <a href="#">opp. st Stephens church (above RT office) ,college road , pathanamthitta</a>
                 </div>
               </div>
             </div>
           </div>
-          <div className="col-lg-8 offset-lg-1 col-12 order-class">
+          <div className="col-lg-7 offset-lg-1 col-12 order-class">
             <div
               className="ed-contact__form wow fadeInUp"
               data-wow-duration="1s"
@@ -108,7 +108,7 @@ const Contact = () => {
               <div className="ed-contact__form-head">
                 <span className="ed-contact__form-sm-title">GET IN TOUCH</span>
                 <h3 className="ed-contact__form-big-title">
-                  Have Any Questions About Eduna? Contact With Us Today
+                  Confused about your future? Contact With Us Today
                 </h3>
               </div>
               <form action="#" method="post" className="ed-contact__form-main">
@@ -141,7 +141,7 @@ const Contact = () => {
                         type="text"
                         id="website"
                         name="website"
-                        placeholder="Your website"
+                        placeholder="Your qualification"
                         required
                       />
                     </div>

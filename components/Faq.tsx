@@ -165,45 +165,63 @@ export const Faq2 = () => {
   }[] = [
     {
       id: 1,
-      question: "What industries does ITGet IT Solutions serve?",
+      question: "What services does Southern West International provide?",
       answer:
-        "ITGet IT Solutions offers a comprehensive range of services including but not limited to: software development, web development, mobile app development, IT consulting, cybersecurity solutions, cloud services, and IT infrastructure management.",
+        "We offer complete study abroad guidance including university selection, course counseling, application processing, visa assistance, scholarship guidance, and pre-departure support.",
     },
     {
       id: 2,
-      question: "How experienced is ITGet IT Solutions in the industry?",
+      question: "Which countries can I apply to?",
       answer:
-        "ITGet IT Solutions offers a comprehensive range of services including but not limited to: software development, web development, mobile app development, IT consulting, cybersecurity solutions, cloud services, and IT infrastructure management.",
+        "We assist students in applying to top universities in the UK, Canada, Australia, USA, Ireland, Europe and other leading international study destinations.We have tie ups with 30+ countries and 800+ universities",
     },
     {
       id: 3,
-      question: "What services does ITGet IT Solutions provide?",
+      question: "Do you charge for counseling?",
       answer:
-        "ITGet IT Solutions offers a comprehensive range of services including but not limited to: software development, web development, mobile app development, IT consulting, cybersecurity solutions, cloud services, and IT infrastructure management.",
+        "Our initial counseling and profile evaluation are completely free. Service charges, if applicable, will be clearly explained before proceeding with applications.",
     },
     {
       id: 4,
-      question: "Can ITGet IT Solutions handle projects of all sizes?",
+      question: "Can you help me choose the right course and university?",
       answer:
-        "ITGet IT Solutions offers a comprehensive range of services including but not limited to: software development, web development, mobile app development, IT consulting, cybersecurity solutions, cloud services, and IT infrastructure management.",
+        "Yes. Our expert counselors assess your academic background, career goals, and budget to recommend the most suitable universities and programs.",
     },
     {
       id: 5,
-      question: "What is the company's mission and vision?",
+      question: "Do you assist with student visa applications?",
       answer:
-        "ITGet IT Solutions offers a comprehensive range of services including but not limited to: software development, web development, mobile app development, IT consulting, cybersecurity solutions, cloud services, and IT infrastructure management.",
+        "Absolutely. We provide complete visa documentation support, application filing guidance, interview preparation, and updates throughout the process.",
     },
     {
       id: 6,
-      question: "What is the company's mission and vision?",
+      question: "Can you help me get scholarships?",
       answer:
-        "ITGet IT Solutions offers a comprehensive range of services including but not limited to: software development, web development, mobile app development, IT consulting, cybersecurity solutions, cloud services, and IT infrastructure management.",
+        "Yes. We guide eligible students in applying for scholarships, grants, and financial aid offered by universities and institutions.",
     },
     {
       id: 7,
-      question: "What is the company's mission and vision?",
+      question: "How long does the admission process take?",
       answer:
-        "ITGet IT Solutions offers a comprehensive range of services including but not limited to: software development, web development, mobile app development, IT consulting, cybersecurity solutions, cloud services, and IT infrastructure management.",
+        "The timeline depends on the country and university, but generally, it can take 4–12 weeks from application submission to receiving an offer letter.",
+    },
+    {
+      id: 8,
+      question: "What documents are required for study abroad applications?",
+      answer:
+        "Common documents include:  Academic transcripts , Passport copy, English proficiency test scores (IELTS/PTE/TOEFL if required) , Statement of Purpose (SOP) , Letters of Recommendation (LOR). Our team will guide you through the exact requirements.",
+    },
+    {
+      id: 9,
+      question: "Do you provide support after admission?",
+      answer:
+        "Yes. We offer end-to-end support including accommodation guidance, travel assistance, forex support, and pre-departure briefings.",
+    },
+    {
+      id: 10,
+      question: "How do I get started?",
+      answer:
+        "Simply contact us through our website, call us directly, or fill out the inquiry form. Our team will schedule a free consultation to begin your study abroad journey.",
     },
   ];
   const [activeKey, setActiveKey] = useState<string>("1");

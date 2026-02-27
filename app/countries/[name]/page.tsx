@@ -71,10 +71,10 @@ const page = async ({ params }: props) => {
                 </div>
                 {/* Course Details Content List */}
                 <div className="ed-course__details-list">
-                  <h5>Top Courses</h5>
+                  <h4 style={{marginBottom:'40px'}}>Top Selected Courses</h4>
                   <ul>
-                    {country?.courses.map((item, index) => (
-                      <li key={index}>
+                    {country?.courses.map((course, index) => (
+                      <li key={index} className="course-item">
                         <Image
                           width={18}
                           height={18}
@@ -84,15 +84,25 @@ const page = async ({ params }: props) => {
                           alt="icon-check-blue"
                         />
 
-                        {item.courseName}
-
-                        <span className="degrees">
-                          {item.degrees.map((degree, i) => (
-                            <span key={i} className="degree-tag">
-                              [ {degree} ] ,
+                        <div className="course-content">
+                          <div className="course-header">
+                            <span className="course-name">
+                              {course.courseName}
                             </span>
-                          ))}
-                        </span>
+
+                            <div className="degrees">
+                              {course.degrees.map((degree, i) => (
+                                <span key={i} className="degree-badge">
+                                  {degree}
+                                </span>
+                              ))}
+                            </div>
+                          </div>
+
+                          <div className="course-description">
+                            {course.title}
+                          </div>
+                        </div>
                       </li>
                     ))}
                   </ul>
@@ -146,8 +156,8 @@ const page = async ({ params }: props) => {
                       />
                     </div>
                     <div className="ed-contact__info-content">
-                      <span>24/7 Support</span>
-                      <a href="tel:+532 321 33 33">+532 321 33 33</a>
+                      <span>Connect with us</span>
+                      <a href="tel:+532 321 33 33">+91 9037396016</a>
                     </div>
                   </div>
                   {/* Sigle Info  */}

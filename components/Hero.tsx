@@ -65,14 +65,19 @@ export const Hero1 = () => {
               {/* Hero Content */}
               <div className="ed-hero__content">
                 <h1 className="ed-hero__content-title ed-split-text left">
-                  Secure your <span>Future</span>With <span style={{backgroundColor:'blue', color:'white'}}>Southern West International</span>
+                  Secure Your <span>Future</span> With{" "}
+                  <span className="brand-highlight">
+                    Southern West International
+                  </span>
                 </h1>
-                <p className="ed-hero__content-text">
-                 <span>Education Explore.</span> Education without boundaries
-                </p>
+
+                <div className="hero-divider"></div>
+
+                <h3 className="brand-quote">Education Without Boundaries</h3>
+
                 <div className="ed-hero__btn">
-                  <Link href="/course-1" className="ed-btn">
-                    Coonect With Us
+                  <Link href="/contact" className="ed-btn">
+                    Connect With Us
                     <i className="fi fi-rr-arrow-small-right" />
                   </Link>
                 </div>
@@ -85,8 +90,13 @@ export const Hero1 = () => {
                   width={0}
                   height={0}
                   sizes="100vw"
-                  style={{ width: "100%", height: "auto", objectFit: "cover", borderRadius:'80px' }}
-                  src="/assets/images/hero/home-1/hero-img3.png"
+                  style={{
+                    width: "100%",
+                    height: "auto",
+                    objectFit: "cover",
+                    borderRadius: "80px",
+                  }}
+                  src="/assets/images/hero/home-1/hero-img3.jpg"
                   alt="hero-img"
                 />
               </div>

@@ -11,19 +11,19 @@ export const WhyChooseArea1 = () => {
   }[] = [
     {
       id: 1,
-      name: "Face-to-face Teaching",
+      name: "Personalized Expert Guidance",
       icon: "/assets/images/why-choose/why-choose-1/icon-1.svg",
       bg: "bg-1",
       description:
-        "Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia for this is a for that an deserunt mollit.",
+        "Students don’t just want admission — they want the right course, right country, right future. Career-focused counselling & Profile evaluation",
     },
     {
       id: 2,
-      name: "24/7 Support Available",
+      name: "Complete Visa & End-to-End Support",
       icon: "/assets/images/why-choose/why-choose-1/icon-2.svg",
       bg: "bg-2",
       description:
-        "Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia for this is a for that an deserunt mollit.",
+        "Visa approval and documentation are the biggest stress points for students.We make sure of the End to End support.",
     },
   ];
   return (
@@ -42,12 +42,13 @@ export const WhyChooseArea1 = () => {
               <div className="ed-section-head">
                 <span className="ed-section-head__sm-title">WHY CHOOSE US</span>
                 <h3 className="ed-section-head__title ed-split-text left">
-                  Transform Your Best Practice <br />
-                  with Our Online Course
+                  Empowering Your International Education Journey <br />
+                 with <span> Southern West International</span>
                 </h3>
                 <p className="ed-section-head__text">
-                  Excepteur sint occaecat cupidatat non proident sunt in culpa
-                  qui officia deserunt mollit. Excepteur sint occaecat.
+                 We understand that every student is unique. Our team provides tailored advice
+                  to help you choose the right path based on your academic background, career goals, 
+                  and personal preferences.
                 </p>
               </div>
               <div className="ed-w-choose__info">
@@ -81,7 +82,7 @@ export const WhyChooseArea1 = () => {
                   width={0}
                   height={0}
                   sizes="100vw"
-                  style={{ width: "100%", height: "auto" }}
+                  style={{ width: "100%", height: "auto", borderRadius:"20px", boxShadow:"0 8px 24px rgba(0, 0, 0, 0.08)"}}
                   src="/assets/images/why-choose/why-choose-1/why-choose-img.png"
                   alt="why-choose-img"
                 />
@@ -94,9 +95,9 @@ export const WhyChooseArea1 = () => {
                 <div className="counter-card__info">
                   <h4>
                     <span className="counter">
-                      <Counter end={69} />
+                      <Counter end={150} />
                     </span>
-                    K+
+                    +
                   </h4>
                   <p>Satisfied Students</p>
                 </div>

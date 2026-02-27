@@ -18,8 +18,8 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Eduna - Online Education Courses React NextJS Template",
-  description: "Eduna - Online Education Courses React NextJS Template",
+  title: "Southern West International - Study Abroad",
+  description: "Southern West International - Overseas Education/ Study Abroad",
 };
 
 export default function RootLayout({

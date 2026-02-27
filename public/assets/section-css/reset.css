@@ -1013,117 +1013,28 @@ p {
   }
 }
 
-/* Preloader CSS */
+/* anime css
+/* New Video Preloader */
+
 .ed-preloader {
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  cursor: default;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: var(--ed-white-color); /* or your theme bg */
   display: flex;
-  height: 100%;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  z-index: 9000;
-  background: var(--ed-white-color);
+  align-items: center;
+  z-index: 9999;
 }
 
-.ed-preloader .animation-preloader {
-  z-index: 1000;
-  position: relative;
-}
-
-.ed-preloader .animation-preloader::after {
-  position: absolute;
-  left: 50%;
-  top: 30px;
-  content: "";
-  height: 50px;
-  width: 50px;
-  background: url(../images/favicon.svg);
-  transform: translateX(-50%);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-}
-
-.ed-preloader .animation-preloader .spinner {
-  -webkit-animation: spinner 1s infinite linear;
-  animation: spinner 1s infinite linear;
-  border-radius: 50%;
-  border: 3px solid #543ee81a;
-  border-top-color: var(--ed-primary-color);
-  height: 110px;
-  margin: 0 auto 30px auto;
-  width: 110px;
-}
-
-.ed-preloader.secondary .animation-preloader .spinner {
-  border-top-color: var(--ed-primary-color);
-}
-
-.ed-preloader .loader {
-  position: fixed;
-  top: 0;
-  left: 0;
+.preloader-video {
   width: 100%;
   height: 100%;
-  font-size: 0;
-  z-index: 1;
-  pointer-events: none;
+  object-fit: cover;
 }
 
-.ed-preloader .loader .row {
-  height: 100%;
-}
-
-.ed-preloader .loader .loader-section {
-  padding: 0px;
-}
-
-.ed-preloader .loader .loader-section .bg {
-  background-color: var(--ed-white-color);
-  height: 100%;
-  left: 0;
-  width: 100%;
-  -webkit-transition: all 800ms cubic-bezier(0.77, 0, 0.175, 1);
-  -o-transition: all 800ms cubic-bezier(0.77, 0, 0.175, 1);
-  transition: all 800ms cubic-bezier(0.77, 0, 0.175, 1);
-}
-
-.ed-preloader.loaded .animation-preloader {
-  opacity: 0;
-  -webkit-transition: 0.3s ease-out;
-  -o-transition: 0.3s ease-out;
-  transition: 0.3s ease-out;
-}
-
-.ed-preloader.loaded .loader-section .bg {
-  width: 0;
-  -webkit-transition: 0.7s 0.3s allcubic-bezier(0.1, 0.1, 0.1, 1);
-  -o-transition: 0.7s 0.3s allcubic-bezier(0.1, 0.1, 0.1, 1);
-  transition: 0.7s 0.3s allcubic-bezier(0.1, 0.1, 0.1, 1);
-}
-
-@-webkit-keyframes spinner {
-  to {
-    -webkit-transform: rotateZ(360deg);
-    transform: rotateZ(360deg);
-  }
-}
-
-@keyframes spinner {
-  to {
-    -webkit-transform: rotateZ(360deg);
-    transform: rotateZ(360deg);
-  }
-}
 
 /* Hobble Effect CSS */
 .ed-hover-layer,

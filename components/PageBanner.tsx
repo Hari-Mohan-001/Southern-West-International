@@ -23,7 +23,7 @@ const PageBanner = ({
                     <Link href="/">Home</Link>
                   </li>
                   <li>/</li>
-                  <li>{pageName}</li>
+                  <li>{pageTitle || pageName}</li>
                 </ul>
               </div>
             </div>

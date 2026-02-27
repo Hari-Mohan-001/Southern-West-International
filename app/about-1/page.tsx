@@ -14,12 +14,12 @@ const page = () => {
       <PageBanner pageName="About Us" />
       <About1 />
       <Features1 />
-      <Category2 />
+      {/* <Category2 /> */}
       <Partner2 />
-      <Course4 />
+      {/* <Course4 /> */}
       <Contact />
-      <Blog1 />
-      <CallToAction1 />
+      {/* <Blog1 /> */}
+      {/* <CallToAction1 /> */}
     </EdunaLayout>
   );
 };

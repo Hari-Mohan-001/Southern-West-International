@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const CountryMain = () => {
-  const courses: {
+  const countries: {
     id: number;
     name: string;
     title: string;
@@ -11,42 +11,42 @@ const CountryMain = () => {
     {
       id: 1,
       name: "UK",
-      title: "Explore more about canada",
+      title: "Explore more about UK",
 
       image: "/assets/images/countries/uk.png",
     },
     {
       id: 2,
       name: "Canada",
-      title: "Explore more about canada",
+      title: "Explore more about Canada",
 
       image: "/assets/images/countries/canada.png",
     },
     {
       id: 3,
       name: "Australia",
-      title: "Explore more about canada",
+      title: "Explore more about Australia",
 
       image: "/assets/images/countries/australia.png",
     },
     {
       id: 4,
       name: "Germany",
-      title: "Explore more about canada",
+      title: "Explore more about Germany",
 
       image: "/assets/images/countries/germany.png",
     },
     {
       id: 5,
       name: "France",
-      title: "Explore more about canada",
+      title: "Explore more about France",
 
       image: "/assets/images/countries/france.png",
     },
     {
       id: 6,
       name: "Ireland",
-      title: "Explore more about canada",
+      title: "Explore more about Ireland",
 
       image: "/assets/images/countries/ireland.png",
     },
@@ -88,7 +88,7 @@ const CountryMain = () => {
             <div className="ed-section-head text-center">
               <span className="ed-section-head__sm-title">Countries</span>
               <h3 className="ed-section-head__title ed-split-text left">
-                Get to Your Dream Country With Us
+                Get to Your Dream Country With <span>Southern West International</span> 
               </h3>
               <div className="ed-section-head__btn">
                 <Link href="/countries" className="ed-btn">
@@ -101,8 +101,8 @@ const CountryMain = () => {
         </div>
         <div className="row">
           {/* Single Course Card */}
-          {courses.map((course) => (
-            <CountryMainItem key={course.id} course={course} />
+          {countries.map((country) => (
+            <CountryMainItem key={country.id} course={country} />
           ))}
         </div>
       </div>
@@ -110,6 +110,7 @@ const CountryMain = () => {
   );
 };
 export default CountryMain;
+
 
 const CountryMainItem = ({
   course,
@@ -120,7 +121,7 @@ const CountryMainItem = ({
 }) => {
   return (
     <div className={containerClass}>
-      <div className="ed-course__card wow fadeInUp" data-wow-duration="1s">
+      <div className="ed-course__card wow fadeInUp" data-wow-duration="1s" >
         <Link href="/countries" className="ed-course__img">
           <Image
             width={0}
@@ -134,10 +135,9 @@ const CountryMainItem = ({
         <Link href="/countries" className="ed-course__tag">
           {course.name}
         </Link>
-        <div className="ed-course__body">
-          <div className="ed-course__lesson"></div>
-          <Link href="/countries" className="ed-course__title">
-            <h5>{course.title}</h5>
+        <div className="ed-course__bodymain">
+          <Link href="/countries" className="ed-course__titlelandingpage">
+            <h6>{course.title}</h6>
           </Link>
         </div>
       </div>
@@ -145,96 +145,195 @@ const CountryMainItem = ({
   );
 };
 
-export const Course2 = () => {
-  const courses: {
-    id: number;
-    name: string;
-    title: string;
-    lessons: number;
-    teacher: string;
-    price: number;
-    students: number;
-    reviews: number;
-    image: string;
-  }[] = [
+export const AllCountries = () => {
+  const countries = [
     {
       id: 1,
-      name: "Data Science",
-      title: "Grow Personal Financial Security Thinking & Principles",
-      lessons: 23,
-      teacher: "Harrison Stone",
-      price: 674,
-      students: 673,
-      reviews: 9,
-      image: "/assets/images/course/course-2/1.png",
+      name: "UK",
+      slugName: "united-kingdom",
+      title:
+        "Study in the UK and gain a globally recognized degree from prestigious universities.",
+      universities: 150,
+      highlights: [
+        "2-Year PSW Visa",
+        "Scholarships Available",
+        "Top-Ranked Universities",
+      ],
+      image: "/assets/images/countries/uk.png",
     },
     {
       id: 2,
-      name: "Business",
-      title: "Data Competitive Strategy law and Organization Course",
-      lessons: 4,
-      teacher: "Alexander Wells",
-      price: 633,
-      students: 964,
-      reviews: 67,
-      image: "/assets/images/course/course-1/2.png",
+      name: "Canada",
+      slugName: "canada",
+      title:
+        "Study in Canada and achieve a globally respected degree in a welcoming country.",
+      universities: 100,
+      highlights: [
+        "Up to 3-Year Work Permit",
+        "Affordable Public Colleges",
+        "PR Pathways Available",
+      ],
+      image: "/assets/images/countries/canada.png",
     },
     {
       id: 3,
-      name: "Design",
-      title: "Voices from the Learning Manage Education Hub",
-      lessons: 87,
-      teacher: "John Smith",
-      price: 383,
-      students: 316,
-      reviews: 87,
-      image: "/assets/images/course/course-1/3.png",
+      name: "Australia",
+      slugName: "australia",
+      title:
+        "Study in Australia and earn a globally recognized degree.",
+      universities: 40,
+      highlights: [
+        "Strong PR Pathways",
+        "Work While Studying",
+        "High Quality Education",
+      ],
+      image: "/assets/images/countries/australia.png",
     },
     {
+      id: 7,
+      name: "Ireland",
+      slugName: "ireland",
+      title:
+        "Study in Ireland and gain an internationally valued degree.",
+      universities: 30,
+      highlights: [
+        "2-Year Post Study Visa",
+        "Tech & Pharma Hub",
+        "English Speaking Country",
+      ],
+      image: "/assets/images/countries/ireland.png",
+    },
+    {
+      id: 5,
+      name: "France",
+      slugName: "france",
+      title:
+        "Study in France and experience world-class education and culture.",
+      universities: 300,
+      highlights: [
+        "Affordable Tuition",
+        "Strong Business Schools",
+        "Cultural Experience",
+      ],
+      image: "/assets/images/countries/france.png",
+    },
+    {
+      id: 6,
+      name: "Germany",
+      slugName: "germany",
+      title:
+        "Study in Germany with affordable education and industry-focused programs.",
+      universities: 400,
+      highlights: [
+        "Low or No Tuition",
+        "Strong Engineering Programs",
+        "Industry Exposure",
+      ],
+      image: "/assets/images/countries/germany.png",
+    },
+     {
       id: 4,
-      name: "Development",
-      title: "The Complete Guide to Build RESTful API Application",
-      lessons: 4,
-      teacher: "Gabriel Cross",
-      price: 356,
-      students: 352,
-      reviews: 65,
-      image: "/assets/images/course/course-1/4.png",
+      name: "Unitted States of America",
+      slugName: "usa",
+      title:
+        "Study in the USA with diverse academic and research opportunities.",
+      universities: 1000,
+      highlights: [
+        "Scholarship Opportunities",
+        "Flexible Course Options",
+        "Top Global Rankings",
+      ],
+      image: "/assets/images/countries/usa.png",
+    },
+    {
+      id: 8,
+      name: "New Zealand",
+      slugName: "new-zealand",
+      title:
+        "Study in New Zealand in a safe and high-quality education system.",
+      universities: 8,
+      highlights: [
+        "Post Study Work Visa",
+        "Safe Environment",
+        "Globally Recognized Degrees",
+      ],
+      image: "/assets/images/countries/newzealand.jpg",
     },
   ];
+
   return (
-    <section className="ed-course ed-course--style2 section-gap position-relative overflow-hidden">
+    <section className="ed-course section-gap position-relative">
       <div className="container ed-container">
-        <div className="row justify-content-center">
-          <div className="col-lg-6 col-md-8 col-12">
-            <div className="ed-section-head text-center">
-              <span className="ed-section-head__sm-title">ONLINE COURSES</span>
-              <h3 className="ed-section-head__title ed-split-text left">
-                Get Your Course With Us
-              </h3>
-            </div>
-          </div>
-        </div>
         <div className="row">
-          {/* Single Course Card */}
-          {courses.map((course) => (
-            <CourseItem2 key={course.id} course={course} />
+          {countries.map((country) => (
+            <div className="col-lg-6 col-md-6 col-12" key={country.id}>
+              <div className="ed-course__card ed-course__card--style2">
+                
+                <div className="ed-course__head position-relative">
+                  <Link
+                    href={`/countries/${country.slugName}`}
+                    className="ed-course__img"
+                  >
+                    <img src={country.image} alt={country.name} />
+                  </Link>
+
+                  <Link
+                    href={`/countries/${country.slugName}`}
+                    className="ed-course__tag"
+                  >
+                    {country.name}
+                  </Link>
+                </div>
+
+                <div className="ed-course__body">
+
+                  <div className="ed-course__lesson">
+                    <div className="ed-course__part">
+                      <i className="fi-rr-home" />
+                      <p>{country.universities}+ Universities</p>
+                    </div>
+                  </div>
+
+                  <ul style={{ paddingLeft: "18px" }}>
+                    {country.highlights.map((item, index) => (
+                      <li key={index}>{item}</li>
+                    ))}
+                  </ul>
+
+                  <Link
+                    href={`/countries/${country.slugName}`}
+                    className="ed-course__title"
+                  >
+                    <h5>{country.title}</h5>
+                  </Link>
+
+                  <div className="ed-course__bottom">
+                    <Link href={`/countries/${country.slugName}`}>
+                      <button
+                        type="button"
+                        style={{
+                          backgroundColor: "#2563eb",
+                          color: "white",
+                          padding: "10px",
+                          borderRadius: "8px",
+                        }}
+                      >
+                        Know More About {country.name}
+                      </button>
+                    </Link>
+                  </div>
+
+                </div>
+              </div>
+            </div>
           ))}
-        </div>
-        <div className="row">
-          <div className="col-12">
-            <div className="ed-section-bottom-btn">
-              <Link href="/course-1" className="ed-btn">
-                View All Courses
-                <i className="fi fi-rr-arrow-small-right" />
-              </Link>
-            </div>
-          </div>
         </div>
       </div>
     </section>
   );
 };
+
+
 
 export const Course3 = () => {
   const courses: {
@@ -898,190 +997,4 @@ export const Course6 = () => {
   );
 };
 
-export const AllCountries = () => {
-  const countries: {
-    id: number;
-    name: string;
-    title: string;
-    lessons: number;
-    students: number;
-    image: string;
-    slugName:string
-  }[] = [
-    {
-      id: 1,
-      name: "UK",
-      slugName:'united-kingdom',
-      title:
-        "Study in the UK and gain a globally recognized degree from prestigious universities while experiencing rich culture and world-class education.",
-      lessons: 23,
 
-      students: 673,
-
-      image: "/assets/images/countries/uk.png",
-    },
-    {
-      id: 2,
-      name: "Canada",
-      slugName:'canada',
-      title:
-        "Study in Canada and achieve a globally respected degree with excellent academic standards and welcoming multicultural communities.",
-      lessons: 4,
-
-      students: 964,
-
-      image: "/assets/images/countries/canada.png",
-    },
-    {
-      id: 3,
-      name: "Australia",
-      slugName:'australia',
-      title:
-        "Study in Australia and earn a globally recognized degree while enjoying high-quality education and a vibrant student lifestyle.",
-      lessons: 87,
-
-      students: 316,
-
-      image: "/assets/images/countries/australia.png",
-    },
-    {
-      id: 4,
-      name: "USA",
-      slugName:'usa',
-      title:
-        "Study in the USA and obtain a globally recognized degree from top-ranked universities with diverse academic opportunities.",
-      lessons: 4,
-
-      students: 352,
-
-      image: "/assets/images/countries/usa.png",
-    },
-    {
-      id: 5,
-      name: "France",
-      slugName:'france',
-      title:
-        "Study in France and receive a globally recognized qualification while experiencing world-class education & cultural traditions.",
-      lessons: 4,
-
-      students: 553,
-
-      image: "/assets/images/countries/france.png",
-    },
-    {
-      id: 6,
-      name: "Germany",
-      slugName:'germany',
-      title:
-        "Study in Germany and earn a highly respected degree with affordable education and strong industry-focused programs.",
-      lessons: 4,
-
-      students: 352,
-
-      image: "/assets/images/countries/germany.png",
-    },
-    {
-      id: 7,
-      name: "Ireland",
-      slugName:'ireland',
-      title:
-        "Study in Ireland and gain an internationally valued degree in a country known for innovation and a strong academic heritage.",
-      lessons: 4,
-
-      students: 352,
-      image: "/assets/images/countries/ireland.png",
-    },
-    {
-      id: 8,
-      name: "New Zealand",
-      slugName:'new-zealand',
-      title:
-        "Study in New Zealand and earn a globally recognized degree while enjoying high-quality education in a safe and welcoming environment.",
-      lessons: 4,
-
-      students: 352,
-      image: "/assets/images/countries/newzealand.jpg",
-    },
-  ];
-  return (
-    <section className="ed-course section-gap position-relative">
-      <div className="container ed-container">
-        <div className="row">
-          {countries.map((country) => (
-            <div className="col-lg-6 col-xl-6 col-md-6 col-12" key={country.id}>
-              <div
-                className="ed-course__card ed-course__card--style2 wow fadeInUp"
-                data-wow-delay=".3s"
-                data-wow-duration="1s"
-              >
-                <div className="ed-course__head position-relative">
-                  <Link
-                    href={`countries/${country?.slugName.toLowerCase()}`}
-                    className="ed-course__img"
-                  >
-                    <img src={country.image} alt="course-img" />
-                  </Link>
-                  <Link
-                    href={`countries/${country.slugName.toLowerCase()}`}
-                    className="ed-course__tag"
-                  >
-                    {country.name}
-                  </Link>
-                </div>
-                <div className="ed-course__body">
-                  <div className="ed-course__lesson">
-                    <div className="ed-course__part">
-                      <i className="fi-rr-home" />
-                      <p>{country.lessons} Universities</p>
-                    </div>
-                  </div>
-                  <Link
-                    href={`countries/${country.slugName.toLowerCase()}`}
-                    className="ed-course__title"
-                  >
-                    <h5>{country.title}</h5>
-                  </Link>
-
-                  <div className="ed-course__bottom">
-                    <Link href={`countries/${country.slugName.toLowerCase()}`}>
-                      <button
-                        type="button"
-                        style={{
-                          backgroundColor: "red",
-                          color: "white",
-                          padding: "10px",
-                          borderRadius: "10px",
-                        }}
-                      >
-                        Know more about {country.name}
-                      </button>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-        {/* <div className="row">
-          <div className="col-12">
-            <div className="ed-pagination">
-              <ul className="ed-pagination__list">
-                <li className="active">
-                  <a href="#">01</a>
-                </li>
-                <li>
-                  <a href="#">02</a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fi-rr-arrow-small-right" />
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div> */}
-      </div>
-    </section>
-  );
-};

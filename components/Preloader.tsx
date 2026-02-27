@@ -1,23 +1,24 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 const Preloader = () => {
-  const [loader, setLoader] = useState<boolean>(true);
-  useEffect(() => {
-    setTimeout(() => {
-      setLoader(false);
-    }, 1000);
-    return () => {};
-  }, []);
-  if (!loader) return null;
+  const [loading, setLoading] = useState(true);
+
+  if (!loading) return null;
+
   return (
-    <div id="preloader">
-      <div id="ed-preloader" className="ed-preloader">
-        <div className="animation-preloader">
-          <div className="spinner" />
-        </div>
-      </div>
+    <div className="ed-preloader">
+      <video
+        autoPlay
+        muted
+        playsInline
+        className="preloader-video"
+        onEnded={() => setLoading(false)}
+      >
+        <source src="/assets/images/video/animevideo/logo.mp4" type="video/mp4" />
+      </video>
     </div>
   );
 };
+
 export default Preloader;

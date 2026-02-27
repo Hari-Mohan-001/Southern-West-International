@@ -95,6 +95,29 @@
   bottom: -105px;
 }
 
+.hero-divider {
+  width: 60px;
+  height: 4px;
+  background: #2563eb;
+  margin: 20px 0;
+  border-radius: 2px;
+}
+
+.brand-highlight {
+  background: linear-gradient(90deg, #2563eb, #4f46e5) !important;
+  color: #fff;
+  padding: 4px 12px;
+  border-radius: 6px;
+}
+
+.brand-quote {
+  font-size: 26px;
+  font-weight: 500;
+  margin-top: 20px;
+  color: #475569;
+  letter-spacing: 1px;
+}
+
 /* Hero Style 2 */
 .ed-hero.ed-hero--style2 .ed-container-expand {
   max-width: 1762px;

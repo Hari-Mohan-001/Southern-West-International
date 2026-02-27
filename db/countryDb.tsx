@@ -17,26 +17,26 @@ export const countryData = [
     whyThisCountry:
       "Studying in the United Kingdom provides internationally respected qualifications and strong career prospects. Universities emphasize critical thinking, practical learning, and research excellence. With shorter course durations and multicultural exposure, students gain global perspectives and valuable networks. A UK degree enhances employability and opens doors to opportunities across industries worldwide.",
     topUniversities: [
-      "University of Bristol",
-      "University of Southampton",
-      "University of Glasgow",
-      "University of Leeds",
-      "University of Birmingham",
-      "Durham University",
-      "University of Sheffield",
-      "University of Nottingham",
-      "Newcastle University",
-      "Queen Mary University of London",
+      "University of Bristol, Bristol",
+      "University of Southampton, Southampton",
+      "University of Glasgow, Glasgow",
+      "University of Leeds, Leeds",
+      "University of Birmingham, Birmingham",
+      "Durham University, Durham",
+      "University of Sheffield, Sheffield",
+      "University of Nottingham, Nottingham",
+      "Newcastle University, Newcastle upon Tyne",
+      "Queen Mary University of London, London"
     ],
      courses: [
-      { courseName: "Artificial Intelligence & Machine Learning", degrees: ["BSc", "MSc"] },
-      { courseName: "Data Science & Analytics", degrees: ["BSc", "MSc"] },
-      { courseName: "Business Analytics", degrees: ["BSc", "MSc"] },
-      { courseName: "Cyber Security", degrees: ["BSc", "MSc"] },
-      { courseName: "Finance & FinTech", degrees: ["BSc", "MSc"] },
-      { courseName: "Healthcare & Nursing", degrees: ["BSc", "MSc"] },
-      { courseName: "Law", degrees: ["LLB", "LLM"] },
-      { courseName: "Digital Marketing", degrees: ["BSc", "MSc"] }
+      { courseName: "Artificial Intelligence & Machine Learning", degrees: ["BSc", "MSc"] ,title:"Builds intelligent systems for automation and innovation." },
+      { courseName: "Data Science & Analytics", degrees: ["BSc", "MSc"] ,title:"Extract insights from complex data for decisions." },
+      { courseName: "Business Analytics", degrees: ["BSc", "MSc"],title:"Data-driven strategies to improve business performance." },
+      { courseName: "Cyber Security", degrees: ["BSc", "MSc"] ,title:"Protect systems, networks, and data from threats."},
+      { courseName: "Finance & FinTech", degrees: ["BSc", "MSc"],title:"Modern financial systems and digital banking technologies." },
+      { courseName: "Healthcare & Nursing", degrees: ["BSc", "MSc"],title:"Build careers in hospitals and healthcare management." },
+      { courseName: "Law", degrees: ["LLB", "LLM"] ,title:"Study legal systems, rights, and justice frameworks."},
+      { courseName: "Digital Marketing", degrees: ["BSc", "MSc"] ,title:"Promote brands using online platforms and strategies."}
     ]
   },
   {
@@ -56,26 +56,26 @@ export const countryData = [
     whyThisCountry:
       "Studying in Australia provides excellent research opportunities and practical learning experiences. The country encourages innovation and industry collaboration, helping students gain job-ready skills. With post-study work options and a strong economy, graduates benefit from valuable international exposure and enhanced global career prospects.",
     topUniversities: [
-      "The University of New South Wales, Sydney",
-      "University of Technology Sydney",
+       "The University of New South Wales, Sydney",
+      "University of Technology Sydney, Sydney",
       "The University of Queensland, Brisbane",
-      "RMIT, Melbourne",
-      "Monash University",
+      "RMIT University, Melbourne",
+      "Monash University, Melbourne",
       "Macquarie University, Sydney",
       "The University of Western Australia, Perth",
-      "University of Wollongong",
-      "Adelaide University",
-      "Deakin University",
+      "University of Wollongong, Wollongong",
+      "University of Adelaide, Adelaide",
+      "Deakin University, Melbourne"
     ],
       courses: [
-      { courseName: "Nursing & Healthcare", degrees: ["BSc", "MSc"] },
-      { courseName: "Information Technology", degrees: ["BSc", "MSc"] },
-      { courseName: "Cyber Security", degrees: ["BSc", "MSc"] },
-      { courseName: "Civil Engineering", degrees: ["BEng", "MEng"] },
-      { courseName: "Accounting & Finance", degrees: ["BCom", "MCom"] },
-      { courseName: "Hospitality Management", degrees: ["BBA", "MBA"] },
-      { courseName: "Construction Management", degrees: ["BSc", "MSc"] },
-      { courseName: "Environmental Science", degrees: ["BSc", "MSc"] }
+      { courseName: "Nursing & Healthcare", degrees: ["BSc", "MSc"],title:"Build careers in hospitals and healthcare management." },
+      { courseName: "Information Technology", degrees: ["BSc", "MSc"],title:"Design, develop, and manage information technology systems." },
+      { courseName: "Cyber Security", degrees: ["BSc", "MSc"],title:"Protect systems, networks, and data from threats." },
+      { courseName: "Civil Engineering", degrees: ["BEng", "MEng"],title:"Design and build infrastructure like roads and bridges." },
+      { courseName: "Accounting & Finance", degrees: ["BCom", "MCom"] ,title:"Manage financial records, investments, and business strategies."},
+      { courseName: "Hospitality Management", degrees: ["BBA", "MBA"] ,title:"Manage hotels, tourism, and service industries."},
+      { courseName: "Construction Management", degrees: ["BSc", "MSc"],title:"Manage construction projects from planning to completion." },
+      { courseName: "Environmental Science", degrees: ["BSc", "MSc"],title:"Protect ecosystems and combat climate change." }
     ]
   },
   {
@@ -95,26 +95,26 @@ export const countryData = [
     whyThisCountry:
       "Studying in Canada provides affordable education compared to many other destinations, along with strong career pathways. Institutions emphasize practical learning and research excellence. With post-graduation work permits and immigration opportunities, students gain valuable experience and long-term career advantages.",
     topUniversities: [
-      "University of Toronto",
-      "University of British Columbia",
-      "McGill University",
-      "University of Alberta",
-      "McMaster University",
-      "University of Montreal",
-      "University of Waterloo",
-      "Western University",
-      "University of Calgary",
-      "Queen’s University",
+       "University of Toronto, Toronto",
+      "University of British Columbia, Vancouver",
+      "McGill University, Montreal",
+      "University of Alberta, Edmonton",
+      "McMaster University, Hamilton",
+      "University of Montreal, Montreal",
+      "University of Waterloo, Waterloo",
+      "Western University, London",
+      "University of Calgary, Calgary",
+      "Queen’s University, Kingston"
     ],
      courses: [
-      { courseName: "Artificial Intelligence", degrees: ["BSc", "MSc"] },
-      { courseName: "Data Analytics", degrees: ["BSc", "MSc"] },
-      { courseName: "Cyber Security", degrees: ["BSc", "MSc"] },
-      { courseName: "Healthcare & Nursing", degrees: ["BSc", "MSc"] },
-      { courseName: "Project Management", degrees: ["BBA", "MBA"] },
-      { courseName: "Business Management", degrees: ["BBA", "MBA"] },
-      { courseName: "Renewable Energy", degrees: ["BSc", "MSc"] },
-      { courseName: "Supply Chain Management", degrees: ["BBA", "MBA"] }
+      { courseName: "Artificial Intelligence", degrees: ["BSc", "MSc"],title:"Builds intelligent systems for automation and innovation."  },
+      { courseName: "Data Analytics", degrees: ["BSc", "MSc"] ,title:"Extract insights from complex data for decisions." },
+      { courseName: "Cyber Security", degrees: ["BSc", "MSc"] ,title:"Protect systems, networks, and data from threats." },
+      { courseName: "Healthcare & Nursing", degrees: ["BSc", "MSc"],title:"Provide compassionate care in clinical settings."  },
+      { courseName: "Project Management", degrees: ["BBA", "MBA"] ,title:"Plan, execute, and deliver projects successfully." },
+      { courseName: "Business Management", degrees: ["BBA", "MBA"],title:"Lead organizations with strategic and operational expertise."  },
+      { courseName: "Renewable Energy", degrees: ["BSc", "MSc"] ,title:"Develop sustainable energy solutions for a greener future." },
+      { courseName: "Supply Chain Management", degrees: ["BBA", "MBA"],title:"Manage logistics, procurement, and global distribution networks."  }
     ]
   },
   {
@@ -134,26 +134,26 @@ export const countryData = [
     whyThisCountry:
       "Studying in Germany provides excellent career prospects, especially in engineering and innovation-driven industries. The country emphasizes practical training and research excellence. With affordable living costs and global recognition, graduates gain competitive skills and international career opportunities.",
     topUniversities: [
-      "Lancaster University, Leipzig",
-      "Constructor University",
-      "EU Business School (Germany)",
-      "International School of Management",
-      "Arden University Berlin Study Center",
-      "SRH Berlin University of Applied Sciences",
-      "CBS International Business School",
-      "GISMA Business School Hochschule",
-      "University of Europe for Applied Sciences",
-      "EBS University",
+       "Lancaster University, Leipzig",
+      "Constructor University, Bremen",
+      "EU Business School, Munich",
+      "International School of Management, Dortmund",
+      "Arden University Berlin Study Center, Berlin",
+      "SRH Berlin University of Applied Sciences, Berlin",
+      "CBS International Business School, Cologne",
+      "GISMA Business School Hochschule, Berlin",
+      "University of Europe for Applied Sciences, Berlin",
+      "EBS University, Wiesbaden"
     ],
      courses: [
-      { courseName: "Automotive Engineering", degrees: ["BEng", "MEng"] },
-      { courseName: "Mechanical Engineering", degrees: ["BEng", "MEng"] },
-      { courseName: "Artificial Intelligence", degrees: ["BSc", "MSc"] },
-      { courseName: "Data Science", degrees: ["BSc", "MSc"] },
-      { courseName: "Robotics", degrees: ["BEng", "MEng"] },
-      { courseName: "Renewable Energy Engineering", degrees: ["BEng", "MEng"] },
-      { courseName: "Business Management", degrees: ["BBA", "MBA"] },
-      { courseName: "Industrial Engineering", degrees: ["BEng", "MEng"] }
+      { courseName: "Automotive Engineering", degrees: ["BEng", "MEng"],title:"Design advanced vehicle systems and mobility solutions." },
+      { courseName: "Mechanical Engineering", degrees: ["BEng", "MEng"] ,title:"Develop machines, systems, and manufacturing technologies."},
+      { courseName: "Artificial Intelligence", degrees: ["BSc", "MSc"] ,title:"Builds intelligent systems for automation and innovation."},
+      { courseName: "Data Science", degrees: ["BSc", "MSc"],title:"Extract insights from complex data for decisions." },
+      { courseName: "Robotics", degrees: ["BEng", "MEng"] ,title:"Create intelligent machines for automation industries."},
+      { courseName: "Renewable Energy Engineering", degrees: ["BEng", "MEng"] ,title:"Develop sustainable energy solutions for a greener future."},
+      { courseName: "Business Management", degrees: ["BBA", "MBA"] ,title:"Lead organizations with strategic and operational expertise."},
+      { courseName: "Industrial Engineering", degrees: ["BEng", "MEng"],title:"Optimize processes for efficiency and productivity." }
     ]
   },
   {
@@ -174,26 +174,26 @@ export const countryData = [
     whyThisCountry:
       "Studying in the USA enhances critical thinking, leadership, and professional development. Universities focus on flexibility and interdisciplinary learning. With strong industry connections and internship opportunities, students gain practical skills and global recognition, boosting employability across international markets.",
     topUniversities: [
-      "Harvard University",
-      "Stanford University",
-      "Massachusetts Institute of Technology (MIT)",
-      "University of California, Berkeley",
-      "University of California, Los Angeles (UCLA)",
-      "University of Chicago",
-      "Columbia University",
-      "New York University (NYU)",
-      "University of Pennsylvania",
-      "University of Michigan",
+      "Harvard University, Cambridge",
+      "Stanford University, Stanford",
+      "Massachusetts Institute of Technology (MIT), Cambridge",
+      "University of California, Berkeley, Berkeley",
+      "University of California, Los Angeles (UCLA), Los Angeles",
+      "University of Chicago, Chicago",
+      "Columbia University, New York",
+      "New York University (NYU), New York",
+      "University of Pennsylvania, Philadelphia",
+      "University of Michigan, Ann Arbor"
     ],
      courses: [
-      { courseName: "Computer Science", degrees: ["BSc", "MS"] },
-      { courseName: "Data Science", degrees: ["BSc", "MS"] },
-      { courseName: "Artificial Intelligence", degrees: ["BSc", "MS"] },
-      { courseName: "Business Administration", degrees: ["BBA", "MBA"] },
-      { courseName: "Robotics & Automation", degrees: ["BSc", "MS"] },
-      { courseName: "Biotechnology", degrees: ["BSc", "MS"] },
-      { courseName: "Cloud Computing", degrees: ["BSc", "MS"] },
-      { courseName: "Software Engineering", degrees: ["BSc", "MS"] }
+      { courseName: "Computer Science", degrees: ["BSc", "MS"] ,title:"Foundations of programming, algorithms, and computing systems."},
+      { courseName: "Data Science", degrees: ["BSc", "MS"] ,title:"Extract insights from complex data for decisions."},
+      { courseName: "Artificial Intelligence", degrees: ["BSc", "MS"] ,title:"Builds intelligent systems for automation and innovation."},
+      { courseName: "Business Administration", degrees: ["BBA", "MBA"] ,title:"Leadership, management, and strategic decision-making skills."},
+      { courseName: "Robotics & Automation", degrees: ["BSc", "MS"],title:"Create intelligent machines for automation industries." },
+      { courseName: "Biotechnology", degrees: ["BSc", "MS"],title:"Apply biology to develop medical and industrial innovations." },
+      { courseName: "Cloud Computing", degrees: ["BSc", "MS"] ,title:"Manage scalable infrastructure and cloud-based solutions."},
+      { courseName: "Software Engineering", degrees: ["BSc", "MS"],title:"Design, develop, and maintain reliable software systems." }
     ]
   },
   {
@@ -213,25 +213,25 @@ export const countryData = [
     whyThisCountry:
       "Studying in France offers exposure to international business, fashion, arts, and technology sectors. Universities promote research, creativity, and global collaboration. With affordable tuition options and access to European markets, students gain valuable international experience and strong career potential.",
     topUniversities: [
-      "INSEEC Business School, Paris",
+     "INSEEC Business School, Paris",
       "NEOMA Business School, Rouen",
       "ESCE International Business School, Paris",
       "ECE Engineering School, Paris",
-      "SupdePub School of Creation and Communication, Paris",
-      "HEIP, School of International and Political Studies, Paris",
+      "SupdePub School, Paris",
+      "HEIP School of International Studies, Paris",
       "Excelia Group, La Rochelle",
       "ICN Business School, Nancy",
-      "Kedge Business School, Talence",
+      "Kedge Business School, Talence"
     ],
       courses: [
-      { courseName: "Luxury Brand Management", degrees: ["BBA", "MBA"] },
-      { courseName: "Fashion Management", degrees: ["BBA", "MBA"] },
-      { courseName: "Business & International Management", degrees: ["BBA", "MBA"] },
-      { courseName: "Artificial Intelligence", degrees: ["BSc", "MSc"] },
-      { courseName: "Hospitality Management", degrees: ["BBA", "MBA"] },
-      { courseName: "Data Science", degrees: ["BSc", "MSc"] },
-      { courseName: "Culinary Arts", degrees: ["Diploma", "Bachelor"] },
-      { courseName: "Finance", degrees: ["BCom", "MSc"] }
+      { courseName: "Luxury Brand Management", degrees: ["BBA", "MBA"] ,title:"Manage premium brands in global markets."},
+      { courseName: "Fashion Management", degrees: ["BBA", "MBA"],title:"Business strategies in global fashion industry." },
+      { courseName: "Business & International Management", degrees: ["BBA", "MBA"],title:"Leadership, management, and strategic decision-making skills." },
+      { courseName: "Artificial Intelligence", degrees: ["BSc", "MSc"],title:"Builds intelligent systems for automation and innovation."},
+      { courseName: "Hospitality Management", degrees: ["BBA", "MBA"],title:"Manage hotels, tourism, and service industries." },
+      { courseName: "Data Science", degrees: ["BSc", "MSc"],title:"Extract insights from complex data for decisions."},
+      { courseName: "Culinary Arts", degrees: ["Diploma", "Bachelor"],title:"Develop skills in gourmet cooking and kitchen management." },
+      { courseName: "Finance", degrees: ["BCom", "MSc"] ,title:"Modern financial systems and digital banking technologies."}
     ]
   },
   {
@@ -251,26 +251,26 @@ export const countryData = [
     whyThisCountry:
       "Studying in Ireland provides strong links to global technology and pharmaceutical industries. Universities emphasize research and industry collaboration. With post-study work opportunities and access to the European job market, students gain practical skills and enhanced employability.",
     topUniversities: [
-      "Trinity College Dublin",
-      "University College Dublin",
-      "University College Cork",
-      "University of Galway",
-      "Dublin City University",
-      "University of Limerick",
-      "Maynooth University",
-      "Technological University Dublin",
-      "Atlantic Technological University",
-      "South-East Technological University",
+       "Trinity College Dublin, Dublin",
+      "University College Dublin, Dublin",
+      "University College Cork, Cork",
+      "University of Galway, Galway",
+      "Dublin City University, Dublin",
+      "University of Limerick, Limerick",
+      "Maynooth University, Maynooth",
+      "Technological University Dublin, Dublin",
+      "Atlantic Technological University, Galway",
+      "South-East Technological University, Waterford"
     ],
    courses: [
-      { courseName: "Data Analytics", degrees: ["BSc", "MSc"] },
-      { courseName: "Artificial Intelligence", degrees: ["BSc", "MSc"] },
-      { courseName: "Pharmaceutical Sciences", degrees: ["BSc", "MSc"] },
-      { courseName: "Cyber Security", degrees: ["BSc", "MSc"] },
-      { courseName: "Cloud Computing", degrees: ["BSc", "MSc"] },
-      { courseName: "Finance", degrees: ["BCom", "MSc"] },
-      { courseName: "Business Analytics", degrees: ["BBA", "MSc"] },
-      { courseName: "Software Development", degrees: ["BSc", "MSc"] }
+      { courseName: "Data Analytics", degrees: ["BSc", "MSc"] ,title:"Extract insights from complex data for decisions."},
+      { courseName: "Artificial Intelligence", degrees: ["BSc", "MSc"],title:"Builds intelligent systems for automation and innovation." },
+      { courseName: "Pharmaceutical Sciences", degrees: ["BSc", "MSc"] ,title:"Study drug development, safety, and medical innovation."},
+      { courseName: "Cyber Security", degrees: ["BSc", "MSc"],title:"Protect systems, networks, and data from threats." },
+      { courseName: "Cloud Computing", degrees: ["BSc", "MSc"],title:"Manage scalable infrastructure and cloud-based solutions." },
+      { courseName: "Finance", degrees: ["BCom", "MSc"],title:"Modern financial systems and digital banking technologies." },
+      { courseName: "Business Analytics", degrees: ["BBA", "MSc"],title:"Data-driven strategies to improve business performance." },
+      { courseName: "Software Development", degrees: ["BSc", "MSc"],title:"Design, develop, and maintain reliable software systems." }
     ]
   },
   {
@@ -290,24 +290,25 @@ export const countryData = [
     whyThisCountry:
       "Studying in New Zealand encourages innovation, critical thinking, and practical learning. The country provides strong student support services and post-study work options. Graduates benefit from internationally respected qualifications and global career opportunities in diverse industries.",
     topUniversities: [
-      "University of Auckland",
-      "University of Otago",
-      "Victoria University of Wellington",
-      "University of Canterbury",
-      "Massey University",
-      "Auckland University of Technology (AUT)",
-      "Lincoln University",
-      "Waikato University",
+     "University of Auckland, Auckland",
+      "University of Otago, Dunedin",
+      "Victoria University of Wellington, Wellington",
+      "University of Canterbury, Christchurch",
+      "Massey University, Palmerston North",
+      "Auckland University of Technology (AUT), Auckland",
+      "Lincoln University, Lincoln",
+      "University of Waikato, Hamilton"
+
     ],
      courses: [
-      { courseName: "Agriculture & Agribusiness", degrees: ["BSc", "MSc"] },
-      { courseName: "Environmental Science", degrees: ["BSc", "MSc"] },
-      { courseName: "Information Technology", degrees: ["BSc", "MSc"] },
-      { courseName: "Construction Management", degrees: ["BSc", "MSc"] },
-      { courseName: "Nursing", degrees: ["BSc", "MSc"] },
-      { courseName: "Hospitality & Tourism", degrees: ["BBA", "MBA"] },
-      { courseName: "Data Science", degrees: ["BSc", "MSc"] },
-      { courseName: "Engineering", degrees: ["BEng", "MEng"] }
+      { courseName: "Agriculture & Agribusiness", degrees: ["BSc", "MSc"],title:"Modern farming techniques and sustainable food production." },
+      { courseName: "Environmental Science", degrees: ["BSc", "MSc"] ,title:"Protect ecosystems and combat climate change."},
+      { courseName: "Information Technology", degrees: ["BSc", "MSc"],title:"Design, develop, and manage information technology systems." },
+      { courseName: "Construction Management", degrees: ["BSc", "MSc"],title:"Manage construction projects from planning to completion." },
+      { courseName: "Nursing", degrees: ["BSc", "MSc"] ,title:"Provide compassionate care in clinical settings."},
+      { courseName: "Hospitality & Tourism", degrees: ["BBA", "MBA"],title:"Manage hotels, tourism, and service industries." },
+      { courseName: "Data Science", degrees: ["BSc", "MSc"],title:"Extract insights from complex data for decisions." },
+      { courseName: "Engineering", degrees: ["BEng", "MEng"],title:"Design innovative solutions for real-world challenges." }
     ]
   },
 ];
