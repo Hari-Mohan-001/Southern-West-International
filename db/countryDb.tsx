@@ -160,7 +160,7 @@ export const countryData = [
     id: 5,
     name: "USA",
     realName: "United States (USA)",
-    slugName:'united-states',
+    slugName:'usa',
     capital: "Washington, D.C",
     language: "English",
     Universities: 500,

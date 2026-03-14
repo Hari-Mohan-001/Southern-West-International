@@ -28,13 +28,7 @@ export const WhyChooseArea1 = () => {
   ];
   return (
     <section className="ed-why-choose section-gap background-image position-relative section-bg-2">
-      <Image
-        width={49}
-        height={80}
-        className="ed-w-choose__pattern-1"
-        src="/assets/images/why-choose/why-choose-1/pattern-1.svg"
-        alt="pattern-1"
-      />
+     
       <div className="container ed-container">
         <div className="row align-items-center">
           <div className="col-lg-6 col-12">
@@ -104,13 +98,7 @@ export const WhyChooseArea1 = () => {
               </div>
               {/* Shapes Elements */}
               <div className="ed-w-choose__shapes">
-                <Image
-                  width={70}
-                  height={55}
-                  className="ed-w-choose__shape-1 rotate-ani"
-                  src="/assets/images/why-choose/why-choose-1/shape-1.svg"
-                  alt="shape-1"
-                />
+              
                 <Image
                   width={70}
                   height={50}

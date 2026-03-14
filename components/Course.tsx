@@ -54,33 +54,9 @@ const CountryMain = () => {
   return (
     <section className="ed-course section-gap section-bg-1 position-relative">
       <div className="ed-course__shapes">
-        <Image
-          width={37}
-          height={41}
-          sizes="100vw"
-          style={{ width: "37px", height: "41px" }}
-          className="ed-course__shape-1 rotate-ani"
-          src="/assets/images/course/course-1/shape-1.svg"
-          alt="shape-1"
-        />
-        <Image
-          width={133}
-          height={154}
-          sizes="133x154"
-          style={{ width: "133px", height: "154px" }}
-          className="ed-course__shape-2 updown-ani"
-          src="/assets/images/abstracts/abstract-element-regular.svg"
-          alt="shape-2"
-        />
-        <Image
-          width={101}
-          height={92}
-          sizes="101x92"
-          style={{ width: "101px", height: "92px" }}
-          className="ed-course__shape-3 updown-ani"
-          src="/assets/images/course/course-1/shape-3.svg"
-          alt="shape-3"
-        />
+        
+    
+        
       </div>
       <div className="container ed-container">
         <div className="row justify-content-center">

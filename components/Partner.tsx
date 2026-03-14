@@ -78,6 +78,10 @@ export const Partner2 = ({
     { id: 10, logo: "10.svg" },
     { id: 11, logo: "11.svg" },
     { id: 12, logo: "12.svg" },
+    { id: 13, logo: "13.svg" },
+    { id: 14, logo: "14.svg" },
+    { id: 15, logo: "15.svg" },
+    { id: 16, logo: "16.svg" },
   ];
   return (
     <section className={containerClass}>

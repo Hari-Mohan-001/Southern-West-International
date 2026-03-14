@@ -7,33 +7,6 @@ export const CallToAction1 = () => {
       <div className="container ed-container">
         <div className="ed-call-action__inner position-relative">
           <div className="ed-call-action__shapes">
-            <Image
-              width={155}
-              height={155}
-              sizes="100vw"
-              style={{ width: "155px", height: "155px" }}
-              className="ed-call-action__shape-1 rotate-ani"
-              src="/assets/images/call-action/call-action-1/shape-1.svg"
-              alt="shape-1"
-            />
-            <Image
-              width={44}
-              height={37}
-              sizes="100vw"
-              style={{ width: "44px", height: "37px" }}
-              className="ed-call-action__shape-2"
-              src="/assets/images/call-action/call-action-1/shape-2.svg"
-              alt="shape-2"
-            />
-            <Image
-              width={108}
-              height={67}
-              sizes="100vw"
-              style={{ width: "108px", height: "67px" }}
-              className="ed-call-action__shape-3 updown-ani"
-              src="/assets/images/call-action/call-action-1/shape-3.svg"
-              alt="shape-3"
-            />
           </div>
           <div className="row">
             <div className="col-lg-6 col-12">
@@ -64,7 +37,7 @@ export const CallToAction1 = () => {
                 </div>
                 <div className="ed-call-action__content-btn">
                   <Link href="/contact" className="ed-btn">
-                    Start you Study abroad journey
+                    Start your Study abroad journey
                     <i className="fi fi-rr-arrow-small-right" />
                   </Link>
                 </div>

@@ -24,7 +24,7 @@ export const Category1 = ({
     { id: 3, name: "Scholarship Assurance",  bg: "bg-3" },
     { id: 4, name: "Interview preparation",  bg: "bg-4" },
     { id: 5, name: "Education loan assistance",  bg: "bg-5" },
-    { id: 6, name: "Accomadation Assistance",  bg: "bg-6" },
+    { id: 6, name: "Accomodation Assistance",  bg: "bg-6" },
     { id: 7, name: "Flight tickets",  bg: "bg-7" },
     { id: 8, name: "Part time job assistance",  bg: "bg-8" },
   ];

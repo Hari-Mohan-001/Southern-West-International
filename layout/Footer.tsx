@@ -75,20 +75,8 @@ const FooterContent = () => {
       {/* Footer Top */}
       <div className="ed-footer__top position-relative">
         <div className="ed-footer__shapes">
-          <Image
-            width={95}
-            height={154}
-            className="ed-footer__shape-1"
-            src="/assets/images/footer/footer-1/shape-1.svg"
-            alt="shape-1"
-          />
-          <Image
-            width={101}
-            height={92}
-            className="ed-footer__shape-2 rotate-ani"
-            src="/assets/images/footer/footer-1/shape-2.svg"
-            alt="shape-2"
-          />
+         
+      
           <Image
             width={119}
             height={121}

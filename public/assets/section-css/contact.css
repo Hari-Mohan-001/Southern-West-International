@@ -376,3 +376,75 @@
 /*================================================================================================
     End Contact CSS
 ===================================================================================================*/
+
+/*================================================================================================
+    Student Form CSS
+===================================================================================================*/
+
+
+.student-inquiry{
+padding:80px 20px;
+background:#f7fbff;
+}
+
+.form-title{
+text-align:center;
+font-size:32px;
+font-weight:700;
+margin-bottom:40px;
+}
+
+.inquiry-form{
+max-width:900px;
+margin:auto;
+background:white;
+padding:40px;
+border-radius:12px;
+box-shadow:0 10px 30px rgba(0,0,0,0.08);
+}
+
+.form-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:20px;
+margin-bottom:20px;
+}
+
+input, select, textarea{
+width:100%;
+padding:12px;
+border:1px solid #ddd;
+border-radius:6px;
+font-size:15px;
+}
+
+textarea{
+margin-bottom:20px;
+}
+
+.submit-btn{
+background:#0d6efd;
+color:white;
+border:none;
+padding:14px 30px;
+border-radius:6px;
+font-size:16px;
+cursor:pointer;
+transition:0.3s;
+}
+
+.submit-btn:hover{
+background:#084298;
+}
+
+@media(max-width:768px){
+
+.form-grid{
+grid-template-columns:1fr;
+}
+
+.form-title{
+font-size:26px;
+}
+
+}

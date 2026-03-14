@@ -2,7 +2,7 @@
 :HL["/_next/static/chunks/d6966ce199dc4034.css","style"]
 :HL["/_next/static/chunks/1f5bfd54b51cf9aa.css","style"]
 :HL["/_next/static/chunks/fd822884b80726b9.css","style"]
-:HL["/_next/static/chunks/575e6993ea49fa8c.css","style"]
+:HL["/_next/static/chunks/75443c5b2d24dd51.css","style"]
 :HL["/_next/static/chunks/14b322bf70625a2a.css","style"]
 :HL["/_next/static/media/043b82ab31bba5a4-s.p.b67c2e04.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/47fe1b7cd6e6ed85-s.p.855a563b.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
@@ -45,4 +45,4 @@
 :HL["/assets/images/course/course-3/course-instructor-thumb-5.jpg","image"]
 :HL["/assets/images/course/course-1/6.png","image"]
 :HL["/assets/images/course/course-3/course-instructor-thumb-6.jpg","image"]
-0:{"buildId":"GKm3w4CXboE9iscmgm7Vl","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"index-4","paramType":null,"paramKey":"index-4","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
+0:{"buildId":"sYU509yxwIgtXBA9T-mHI","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"index-4","paramType":null,"paramKey":"index-4","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}

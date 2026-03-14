@@ -23,40 +23,14 @@ export const Hero1 = () => {
               src="/assets/images/hero/home-1/shape-1.svg"
               alt="shape-1"
             />
-            <Image
-              width={49}
-              height={79}
-              sizes="49px"
-              style={{ width: "49px", height: "79px" }}
-              className="element-move ed-hero__shape-2"
-              src="/assets/images/hero/home-1/shape-2.svg"
-              alt="shape-1"
-            />
-            <Image
-              width={49}
-              height={94}
-              sizes="49px"
-              style={{ width: "49px", height: "94px" }}
-              className="element-move ed-hero__shape-3"
-              src="/assets/images/hero/home-1/shape-3.svg"
-              alt="shape-1"
-            />
-            <Image
-              width={49}
-              height={94}
-              sizes="49px"
-              style={{ width: "49px", height: "94px" }}
-              className="element-move ed-hero__shape-4"
-              src="/assets/images/hero/home-1/shape-4.svg"
-              alt="shape-1"
-            />
+          
             <Image
               width={70}
               height={55}
               sizes="70px"
-              style={{ width: "70px", height: "55px", objectFit: "cover" }}
+              style={{ width: "80px", height: "75px", objectFit: "cover" }}
               className="element-move ed-hero__shape-5"
-              src="/assets/images/hero/home-1/shape-5.png"
+              src="/assets/images/hero/home-1/shape-4.svg"
               alt="shape-5"
             />
           </div>

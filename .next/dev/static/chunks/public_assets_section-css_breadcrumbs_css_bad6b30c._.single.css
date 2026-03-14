@@ -1,0 +1,166 @@
+/* [project]/public/assets/section-css/breadcrumbs.css [app-client] (css) */
+.ed-breadcrumbs {
+  padding: 50px 0;
+}
+
+.ed-breadcrumbs__content {
+  text-align: center;
+}
+
+.ed-breadcrumbs__title {
+  margin-bottom: 24px;
+  font-size: 36px;
+  line-height: 30px;
+}
+
+.ed-breadcrumbs__menu {
+  justify-content: center;
+  gap: 6px;
+  display: flex;
+}
+
+.ed-breadcrumbs__menu li {
+  color: var(--ed-paragraph-color);
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.ed-breadcrumbs__menu li.active a {
+  color: #df4343;
+  font-weight: 500;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.99px) {
+  .ed-breadcrumbs {
+    padding: 80px 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .ed-breadcrumbs {
+    padding: 56px 0;
+  }
+
+  .ed-breadcrumbs__title {
+    margin-bottom: 16px;
+    font-size: 32px;
+  }
+}
+
+.banner-wrapper {
+  margin-top: 120px;
+  padding: 20px;
+}
+
+.page-banner {
+  background-color: #8f728d;
+  border-radius: 20px;
+  padding: 80px 20px;
+  position: relative;
+  overflow: visible;
+}
+
+.banner-content {
+  text-align: center;
+  z-index: 2;
+  position: relative;
+}
+
+.banner-title {
+  color: #1a1a1a;
+  margin-bottom: 10px;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.breadcrumb-menu {
+  justify-content: center;
+  gap: 10px;
+  padding: 0;
+  font-size: 16px;
+  list-style: none;
+  display: flex;
+}
+
+.breadcrumb-menu li a {
+  color: #000;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.banner-shape {
+  opacity: .7;
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.banner-shape-left {
+  left: 20px;
+}
+
+.banner-shape-right {
+  right: 20px;
+}
+
+@media (max-width: 992px) {
+  .banner-title {
+    font-size: 28px;
+  }
+
+  .banner-shape {
+    width: 80px;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .page-banner {
+    padding: 60px 15px;
+  }
+
+  .banner-title {
+    font-size: 24px;
+  }
+
+  .banner-shape {
+    opacity: .4;
+    width: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  .banner-shape {
+    display: none;
+  }
+
+  .banner-title {
+    font-size: 20px;
+  }
+
+  .breadcrumb-menu {
+    font-size: 14px;
+  }
+}
+
+.banner-shape {
+  animation: 6s ease-in-out infinite floatShape;
+}
+
+@keyframes floatShape {
+  0% {
+    transform: translateY(-50%)translateX(0);
+  }
+
+  50% {
+    transform: translateY(-60%)translateX(5px);
+  }
+
+  100% {
+    transform: translateY(-50%)translateX(0);
+  }
+}
+
+/*# sourceMappingURL=public_assets_section-css_breadcrumbs_css_bad6b30c._.single.css.map*/

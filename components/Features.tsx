@@ -33,24 +33,16 @@ export const Features1 = () => {
     },
   ];
   return (
-    <section className="ed-features position-relative">
+    <section className="ed-features position-relative" style={{backgroundColor:"#314a07"}}>
       <div className="ed-category__shapes">
-        <Image
-          width={49}
-          height={80}
-          sizes="49px"
-          style={{ width: "49px", height: "80px" }}
-          className="ed-category__shape-1 updown-ani"
-          src="/assets/images/features/features-1/shape-1.svg"
-          alt="shape-1"
-        />
+        
         <Image
           width={45}
           height={37}
           sizes="45px"
           style={{ width: "45px", height: "37px" }}
           className="ed-category__shape-2 rotate-ani"
-          src="/assets/images/features/features-1/shape-2.svg"
+          src="/assets/images/features/features-1/shape-3.svg"
           alt="shape-2"
         />
       </div>

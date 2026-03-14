@@ -9,27 +9,9 @@ export const Funfact1 = () => {
     { id: 4, name: "Courses", value: 500 },
   ];
   return (
-    <section className="ed-funfact" style={{marginBottom:"50px"}} >
+    <section className="ed-funfact" style={{marginBottom:"50px",boxShadow:"0 8px 24px rgba(0, 0, 0, 0.08)"}} >
       <div className="container ed-container position-relative overflow-hidden">
         <div className="ed-funfact__shapes">
-          <Image
-            width={37}
-            height={41}
-            sizes="37px"
-            style={{ width: "37px", height: "41px" }}
-            className="ed-funfact__shape-1 updown-ani"
-            src="/assets/images/funfact/funfact-1/shape-1.svg"
-            alt="shape-1"
-          />
-          <Image
-            width={87}
-            height={59}
-            sizes="87px"
-            style={{ width: "87px", height: "59px" }}
-            className="ed-funfact__shape-2 rotate-ani"
-            src="/assets/images/funfact/funfact-1/shape-2.svg"
-            alt="shape-1"
-          />
         </div>
         <div className="ed-funfact__inner">
           <div className="ed-funfact__img">

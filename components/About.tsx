@@ -59,15 +59,7 @@ export const About1 = () => {
                   src="/assets/images/about/about-1/shape-2.svg"
                   alt="shape-2"
                 />
-                <Image
-                  width={83}
-                  height={74}
-                  sizes="100vw"
-                  style={{ width: "83px", height: "74px" }}
-                  className="ed-about__shape-3 rotate-ani"
-                  src="/assets/images/about/about-1/shape-3.svg"
-                  alt="shape-3"
-                />
+             
               </div>
             </div>
           </div>
@@ -117,7 +109,7 @@ export const About1 = () => {
         sizes="100vw"
         style={{ width: "100", height: "auto" }}
         className="ed-about__shape-4"
-        src="/assets/images/abstracts/abstract-element-regular.svg"
+        src="/assets/images/about/about-1/shape-4.svg"
         alt="shape-4"
       />
     </section>

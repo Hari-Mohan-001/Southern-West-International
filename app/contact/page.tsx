@@ -1,6 +1,8 @@
 import { CallToAction1 } from "@/components/CallToAction";
 import { Contact2 } from "@/components/Contact";
+import StudentInquiryForm from "@/components/ContactFormStudents";
 import PageBanner from "@/components/PageBanner";
+
 import EdunaLayout from "@/layout/EdunaLayout";
 import Image from "next/image";
 const page = () => {
@@ -28,8 +30,7 @@ const page = () => {
       type: "email",
       info: ["southernwestinternational@gmail.com"],
       extraLink: "",
-    },
-    
+    },  
   ];
   return (
     <EdunaLayout>
@@ -73,7 +74,7 @@ const page = () => {
           </div>
         </div>
       </div>
-      <Contact2 />
+      <StudentInquiryForm />
       <CallToAction1 />
     </EdunaLayout>
   );
