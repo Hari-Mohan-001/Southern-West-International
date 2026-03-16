@@ -59,7 +59,7 @@
 /* Banner Background */
 .page-banner {
   position: relative;
-  background-color: #8f728d;
+  background-color: #9dc2c7;
   border-radius: 20px;
   padding: 80px 20px;
   overflow: visible;
@@ -101,18 +101,21 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  opacity: 0.7;
+  /* opacity: 0.9; */
   z-index: 1;
 }
 
 /* Left Shape */
 .banner-shape-left {
   left: 20px;
+  border-radius: 100px;
 }
 
 /* Right Shape */
 .banner-shape-right {
   right: 20px;
+  border-radius: 100px;
+  
 }
 
 /* Tablet */
@@ -122,7 +125,7 @@
   }
 
   .banner-shape {
-    width: 80px;
+    width: 50px;
     height: auto;
   }
 }
@@ -139,7 +142,7 @@
 
   .banner-shape {
     width: 60px;
-    opacity: 0.4;
+    opacity: 0.9;
   }
 }
 

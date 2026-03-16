@@ -8,6 +8,7 @@ import { Fragment, useEffect } from "react";
 import niceSelect from "react-nice-select";
 import Footer from "./Footer";
 import Header from "./Header";
+import Whatsapp from "@/components/Watsapp";
 const EdunaLayout = ({
   children,
   header,
@@ -26,6 +27,7 @@ const EdunaLayout = ({
   }, []);
   return (
     <Fragment>
+       <Whatsapp/>
       <VideoPopup />
       <ImageView />
       <Header header={header ?? 1} />

@@ -42,15 +42,6 @@ export const About1 = () => {
               </div>
               <div className="ed-about__shapes">
                 <Image
-                  width={79}
-                  height={49}
-                  sizes="100vw"
-                  style={{ width: "79px", height: "49px" }}
-                  className="ed-about__shape-1"
-                  src="/assets/images/about/about-1/shape-1.svg"
-                  alt="shape-1"
-                />
-                <Image
                   width={135}
                   height={134}
                   sizes="100vw"
@@ -68,15 +59,16 @@ export const About1 = () => {
             <div className="ed-about__content">
               <div className="ed-section-head">
                 <span className="ed-section-head__sm-title">
-                  Welcome to <span className="ed-about-main-name">
-                    Southern West International</span>
-                </span>
+                  Welcome to </span>
+                   <h4 className="ed-about-main-name">
+                    Southern West International</h4>
+              
                 <h3 className="ed-section-head__title ed-split-text left">
                   Turn Your Dreams into Degrees: Unlock Your<br />
                     Future with Southern West International
                 </h3>
                 <p className="ed-section-head__text">
-                  we are the trusted study abroad platform with extensive experience,
+                  We are the trusted study abroad platform with extensive experience,
                    guiding students to top universities worldwide with expert counseling, 
                    visa support, and career advice. At Southern West International, 
                    we are dedicated to helping students turn their dreams of studying abroad into reality.
@@ -109,7 +101,7 @@ export const About1 = () => {
         sizes="100vw"
         style={{ width: "100", height: "auto" }}
         className="ed-about__shape-4"
-        src="/assets/images/about/about-1/shape-4.svg"
+        src="/assets/images/about/about-1/shape45.png"
         alt="shape-4"
       />
     </section>

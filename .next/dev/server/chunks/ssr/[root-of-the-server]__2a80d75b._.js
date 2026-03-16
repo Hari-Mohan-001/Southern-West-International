@@ -176,41 +176,23 @@ const About1 = ()=>{
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "ed-about__shapes",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                width: 79,
-                                                height: 49,
-                                                sizes: "100vw",
-                                                style: {
-                                                    width: "79px",
-                                                    height: "49px"
-                                                },
-                                                className: "ed-about__shape-1",
-                                                src: "/assets/images/about/about-1/shape-1.svg",
-                                                alt: "shape-1"
-                                            }, void 0, false, {
-                                                fileName: "[project]/components/About.tsx",
-                                                lineNumber: 44,
-                                                columnNumber: 17
-                                            }, ("TURBOPACK compile-time value", void 0)),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                width: 135,
-                                                height: 134,
-                                                sizes: "100vw",
-                                                style: {
-                                                    width: "135px",
-                                                    height: "134px"
-                                                },
-                                                className: "ed-about__shape-2",
-                                                src: "/assets/images/about/about-1/shape-2.svg",
-                                                alt: "shape-2"
-                                            }, void 0, false, {
-                                                fileName: "[project]/components/About.tsx",
-                                                lineNumber: 53,
-                                                columnNumber: 17
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        ]
-                                    }, void 0, true, {
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                            width: 135,
+                                            height: 134,
+                                            sizes: "100vw",
+                                            style: {
+                                                width: "135px",
+                                                height: "134px"
+                                            },
+                                            className: "ed-about__shape-2",
+                                            src: "/assets/images/about/about-1/shape-2.svg",
+                                            alt: "shape-2"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/About.tsx",
+                                            lineNumber: 44,
+                                            columnNumber: 17
+                                        }, ("TURBOPACK compile-time value", void 0))
+                                    }, void 0, false, {
                                         fileName: "[project]/components/About.tsx",
                                         lineNumber: 43,
                                         columnNumber: 15
@@ -236,21 +218,19 @@ const About1 = ()=>{
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 className: "ed-section-head__sm-title",
-                                                children: [
-                                                    "Welcome to ",
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                        className: "ed-about-main-name",
-                                                        children: "Southern West International"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/components/About.tsx",
-                                                        lineNumber: 71,
-                                                        columnNumber: 30
-                                                    }, ("TURBOPACK compile-time value", void 0))
-                                                ]
-                                            }, void 0, true, {
+                                                children: "Welcome to "
+                                            }, void 0, false, {
                                                 fileName: "[project]/components/About.tsx",
-                                                lineNumber: 70,
+                                                lineNumber: 61,
                                                 columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+                                                className: "ed-about-main-name",
+                                                children: "Southern West International"
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/About.tsx",
+                                                lineNumber: 63,
+                                                columnNumber: 20
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                 className: "ed-section-head__title ed-split-text left",
@@ -258,28 +238,28 @@ const About1 = ()=>{
                                                     "Turn Your Dreams into Degrees: Unlock Your",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                         fileName: "[project]/components/About.tsx",
-                                                        lineNumber: 75,
+                                                        lineNumber: 67,
                                                         columnNumber: 61
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     "Future with Southern West International"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/About.tsx",
-                                                lineNumber: 74,
+                                                lineNumber: 66,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                 className: "ed-section-head__text",
-                                                children: "we are the trusted study abroad platform with extensive experience, guiding students to top universities worldwide with expert counseling, visa support, and career advice. At Southern West International, we are dedicated to helping students turn their dreams of studying abroad into reality."
+                                                children: "We are the trusted study abroad platform with extensive experience, guiding students to top universities worldwide with expert counseling, visa support, and career advice. At Southern West International, we are dedicated to helping students turn their dreams of studying abroad into reality."
                                             }, void 0, false, {
                                                 fileName: "[project]/components/About.tsx",
-                                                lineNumber: 78,
+                                                lineNumber: 70,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/About.tsx",
-                                        lineNumber: 69,
+                                        lineNumber: 60,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -300,35 +280,35 @@ const About1 = ()=>{
                                                             alt: "icon-check-blue"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/About.tsx",
-                                                            lineNumber: 89,
+                                                            lineNumber: 81,
                                                             columnNumber: 23
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         feature
                                                     ]
                                                 }, index, true, {
                                                     fileName: "[project]/components/About.tsx",
-                                                    lineNumber: 88,
+                                                    lineNumber: 80,
                                                     columnNumber: 21
                                                 }, ("TURBOPACK compile-time value", void 0)))
                                         }, void 0, false, {
                                             fileName: "[project]/components/About.tsx",
-                                            lineNumber: 86,
+                                            lineNumber: 78,
                                             columnNumber: 17
                                         }, ("TURBOPACK compile-time value", void 0))
                                     }, void 0, false, {
                                         fileName: "[project]/components/About.tsx",
-                                        lineNumber: 85,
+                                        lineNumber: 77,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/About.tsx",
-                                lineNumber: 68,
+                                lineNumber: 59,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         }, void 0, false, {
                             fileName: "[project]/components/About.tsx",
-                            lineNumber: 66,
+                            lineNumber: 57,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
@@ -351,11 +331,11 @@ const About1 = ()=>{
                     height: "auto"
                 },
                 className: "ed-about__shape-4",
-                src: "/assets/images/about/about-1/shape-4.svg",
+                src: "/assets/images/about/about-1/shape45.png",
                 alt: "shape-4"
             }, void 0, false, {
                 fileName: "[project]/components/About.tsx",
-                lineNumber: 106,
+                lineNumber: 98,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0))
         ]
@@ -392,7 +372,7 @@ const About2 = ()=>{
                                             children: "ABOUT OUR COURSES"
                                         }, void 0, false, {
                                             fileName: "[project]/components/About.tsx",
-                                            lineNumber: 134,
+                                            lineNumber: 126,
                                             columnNumber: 17
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -401,14 +381,14 @@ const About2 = ()=>{
                                                 "Digital Online Academy: Your ",
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                     fileName: "[project]/components/About.tsx",
-                                                    lineNumber: 138,
+                                                    lineNumber: 130,
                                                     columnNumber: 48
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 "Path to Creative Excellence"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/About.tsx",
-                                            lineNumber: 137,
+                                            lineNumber: 129,
                                             columnNumber: 17
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -416,13 +396,13 @@ const About2 = ()=>{
                                             children: "Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit."
                                         }, void 0, false, {
                                             fileName: "[project]/components/About.tsx",
-                                            lineNumber: 141,
+                                            lineNumber: 133,
                                             columnNumber: 17
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/About.tsx",
-                                    lineNumber: 133,
+                                    lineNumber: 125,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -443,24 +423,24 @@ const About2 = ()=>{
                                                         alt: "icon-check-blue"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/About.tsx",
-                                                        lineNumber: 150,
+                                                        lineNumber: 142,
                                                         columnNumber: 23
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     feature
                                                 ]
                                             }, index, true, {
                                                 fileName: "[project]/components/About.tsx",
-                                                lineNumber: 149,
+                                                lineNumber: 141,
                                                 columnNumber: 21
                                             }, ("TURBOPACK compile-time value", void 0)))
                                     }, void 0, false, {
                                         fileName: "[project]/components/About.tsx",
-                                        lineNumber: 147,
+                                        lineNumber: 139,
                                         columnNumber: 17
                                     }, ("TURBOPACK compile-time value", void 0))
                                 }, void 0, false, {
                                     fileName: "[project]/components/About.tsx",
-                                    lineNumber: 146,
+                                    lineNumber: 138,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -474,29 +454,29 @@ const About2 = ()=>{
                                                 className: "fi fi-rr-arrow-small-right"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/About.tsx",
-                                                lineNumber: 166,
+                                                lineNumber: 158,
                                                 columnNumber: 19
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/About.tsx",
-                                        lineNumber: 164,
+                                        lineNumber: 156,
                                         columnNumber: 17
                                     }, ("TURBOPACK compile-time value", void 0))
                                 }, void 0, false, {
                                     fileName: "[project]/components/About.tsx",
-                                    lineNumber: 163,
+                                    lineNumber: 155,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/About.tsx",
-                            lineNumber: 132,
+                            lineNumber: 124,
                             columnNumber: 13
                         }, ("TURBOPACK compile-time value", void 0))
                     }, void 0, false, {
                         fileName: "[project]/components/About.tsx",
-                        lineNumber: 130,
+                        lineNumber: 122,
                         columnNumber: 11
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -520,7 +500,7 @@ const About2 = ()=>{
                                             alt: "about-img-1"
                                         }, void 0, false, {
                                             fileName: "[project]/components/About.tsx",
-                                            lineNumber: 175,
+                                            lineNumber: 167,
                                             columnNumber: 17
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -536,13 +516,13 @@ const About2 = ()=>{
                                             alt: "about-img-1"
                                         }, void 0, false, {
                                             fileName: "[project]/components/About.tsx",
-                                            lineNumber: 184,
+                                            lineNumber: 176,
                                             columnNumber: 17
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/About.tsx",
-                                    lineNumber: 174,
+                                    lineNumber: 166,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -554,12 +534,12 @@ const About2 = ()=>{
                                                 className: "fi fi-rr-graduation-cap"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/About.tsx",
-                                                lineNumber: 196,
+                                                lineNumber: 188,
                                                 columnNumber: 19
                                             }, ("TURBOPACK compile-time value", void 0))
                                         }, void 0, false, {
                                             fileName: "[project]/components/About.tsx",
-                                            lineNumber: 195,
+                                            lineNumber: 187,
                                             columnNumber: 17
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -573,38 +553,38 @@ const About2 = ()=>{
                                                                 end: 9394
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/About.tsx",
-                                                                lineNumber: 201,
+                                                                lineNumber: 193,
                                                                 columnNumber: 23
                                                             }, ("TURBOPACK compile-time value", void 0))
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/About.tsx",
-                                                            lineNumber: 200,
+                                                            lineNumber: 192,
                                                             columnNumber: 21
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         "+"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/About.tsx",
-                                                    lineNumber: 199,
+                                                    lineNumber: 191,
                                                     columnNumber: 19
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                     children: "Enrolled Learners"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/About.tsx",
-                                                    lineNumber: 205,
+                                                    lineNumber: 197,
                                                     columnNumber: 19
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/About.tsx",
-                                            lineNumber: 198,
+                                            lineNumber: 190,
                                             columnNumber: 17
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/About.tsx",
-                                    lineNumber: 194,
+                                    lineNumber: 186,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -623,7 +603,7 @@ const About2 = ()=>{
                                             alt: "shape-1"
                                         }, void 0, false, {
                                             fileName: "[project]/components/About.tsx",
-                                            lineNumber: 209,
+                                            lineNumber: 201,
                                             columnNumber: 17
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -639,7 +619,7 @@ const About2 = ()=>{
                                             alt: "shape-2"
                                         }, void 0, false, {
                                             fileName: "[project]/components/About.tsx",
-                                            lineNumber: 218,
+                                            lineNumber: 210,
                                             columnNumber: 17
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -655,40 +635,40 @@ const About2 = ()=>{
                                             alt: "shape-3"
                                         }, void 0, false, {
                                             fileName: "[project]/components/About.tsx",
-                                            lineNumber: 227,
+                                            lineNumber: 219,
                                             columnNumber: 17
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/About.tsx",
-                                    lineNumber: 208,
+                                    lineNumber: 200,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/About.tsx",
-                            lineNumber: 173,
+                            lineNumber: 165,
                             columnNumber: 13
                         }, ("TURBOPACK compile-time value", void 0))
                     }, void 0, false, {
                         fileName: "[project]/components/About.tsx",
-                        lineNumber: 171,
+                        lineNumber: 163,
                         columnNumber: 11
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/About.tsx",
-                lineNumber: 129,
+                lineNumber: 121,
                 columnNumber: 9
             }, ("TURBOPACK compile-time value", void 0))
         }, void 0, false, {
             fileName: "[project]/components/About.tsx",
-            lineNumber: 128,
+            lineNumber: 120,
             columnNumber: 7
         }, ("TURBOPACK compile-time value", void 0))
     }, void 0, false, {
         fileName: "[project]/components/About.tsx",
-        lineNumber: 127,
+        lineNumber: 119,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };
@@ -3254,15 +3234,15 @@ const Funfact1 = ()=>{
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "ed-funfact__img",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                src: "/assets/images/funfact/funfact-1/funfact-img.jpg",
+                                alt: "funfact-img",
                                 width: 554,
                                 height: 316,
-                                sizes: "554px",
+                                sizes: "(max-width: 768px) 100vw, 554px",
                                 style: {
-                                    width: "554px",
-                                    height: "316px"
-                                },
-                                src: "/assets/images/funfact/funfact-1/funfact-img.jpg",
-                                alt: "funfact-img"
+                                    width: "100%",
+                                    height: "auto"
+                                }
                             }, void 0, false, {
                                 fileName: "[project]/components/Funfact.tsx",
                                 lineNumber: 18,
@@ -4440,18 +4420,7 @@ const WhyChooseArea1 = ()=>{
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "ed-w-choose__shapes",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                        width: 70,
-                                        height: 50,
-                                        className: "ed-w-choose__shape-2",
-                                        src: "/assets/images/why-choose/why-choose-1/pattern-2.svg",
-                                        alt: "pattern-2"
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/WhyChooseArea.tsx",
-                                        lineNumber: 102,
-                                        columnNumber: 17
-                                    }, ("TURBOPACK compile-time value", void 0))
+                                    className: "ed-w-choose__shapes"
                                 }, void 0, false, {
                                     fileName: "[project]/components/WhyChooseArea.tsx",
                                     lineNumber: 100,
@@ -4529,7 +4498,7 @@ const WhyChooseArea2 = ()=>{
                                             children: "WHY CHOOSE US"
                                         }, void 0, false, {
                                             fileName: "[project]/components/WhyChooseArea.tsx",
-                                            lineNumber: 157,
+                                            lineNumber: 151,
                                             columnNumber: 17
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -4538,14 +4507,14 @@ const WhyChooseArea2 = ()=>{
                                                 "Transform Your Best Practice ",
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                     fileName: "[project]/components/WhyChooseArea.tsx",
-                                                    lineNumber: 159,
+                                                    lineNumber: 153,
                                                     columnNumber: 48
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 "with Our Online Course"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/WhyChooseArea.tsx",
-                                            lineNumber: 158,
+                                            lineNumber: 152,
                                             columnNumber: 17
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4553,23 +4522,23 @@ const WhyChooseArea2 = ()=>{
                                             children: "Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit. Excepteur sint occaecat."
                                         }, void 0, false, {
                                             fileName: "[project]/components/WhyChooseArea.tsx",
-                                            lineNumber: 162,
+                                            lineNumber: 156,
                                             columnNumber: 17
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/WhyChooseArea.tsx",
-                                    lineNumber: 156,
+                                    lineNumber: 150,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0))
                             }, void 0, false, {
                                 fileName: "[project]/components/WhyChooseArea.tsx",
-                                lineNumber: 155,
+                                lineNumber: 149,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         }, void 0, false, {
                             fileName: "[project]/components/WhyChooseArea.tsx",
-                            lineNumber: 154,
+                            lineNumber: 148,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4590,25 +4559,25 @@ const WhyChooseArea2 = ()=>{
                                                         alt: "icon"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/WhyChooseArea.tsx",
-                                                        lineNumber: 179,
+                                                        lineNumber: 173,
                                                         columnNumber: 21
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/WhyChooseArea.tsx",
-                                                    lineNumber: 178,
+                                                    lineNumber: 172,
                                                     columnNumber: 19
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h5", {
                                                     children: why.name
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/WhyChooseArea.tsx",
-                                                    lineNumber: 181,
+                                                    lineNumber: 175,
                                                     columnNumber: 19
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/WhyChooseArea.tsx",
-                                            lineNumber: 177,
+                                            lineNumber: 171,
                                             columnNumber: 17
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4617,29 +4586,29 @@ const WhyChooseArea2 = ()=>{
                                                 children: why.description
                                             }, void 0, false, {
                                                 fileName: "[project]/components/WhyChooseArea.tsx",
-                                                lineNumber: 184,
+                                                lineNumber: 178,
                                                 columnNumber: 19
                                             }, ("TURBOPACK compile-time value", void 0))
                                         }, void 0, false, {
                                             fileName: "[project]/components/WhyChooseArea.tsx",
-                                            lineNumber: 183,
+                                            lineNumber: 177,
                                             columnNumber: 17
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, index, true, {
                                     fileName: "[project]/components/WhyChooseArea.tsx",
-                                    lineNumber: 172,
+                                    lineNumber: 166,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0)))
                         }, void 0, false, {
                             fileName: "[project]/components/WhyChooseArea.tsx",
-                            lineNumber: 169,
+                            lineNumber: 163,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/WhyChooseArea.tsx",
-                    lineNumber: 153,
+                    lineNumber: 147,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4654,12 +4623,12 @@ const WhyChooseArea2 = ()=>{
                                 alt: "why-choose-img"
                             }, void 0, false, {
                                 fileName: "[project]/components/WhyChooseArea.tsx",
-                                lineNumber: 193,
+                                lineNumber: 187,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         }, void 0, false, {
                             fileName: "[project]/components/WhyChooseArea.tsx",
-                            lineNumber: 192,
+                            lineNumber: 186,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4672,29 +4641,29 @@ const WhyChooseArea2 = ()=>{
                                 alt: "shape-1"
                             }, void 0, false, {
                                 fileName: "[project]/components/WhyChooseArea.tsx",
-                                lineNumber: 202,
+                                lineNumber: 196,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         }, void 0, false, {
                             fileName: "[project]/components/WhyChooseArea.tsx",
-                            lineNumber: 201,
+                            lineNumber: 195,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/WhyChooseArea.tsx",
-                    lineNumber: 190,
+                    lineNumber: 184,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             ]
         }, void 0, true, {
             fileName: "[project]/components/WhyChooseArea.tsx",
-            lineNumber: 152,
+            lineNumber: 146,
             columnNumber: 7
         }, ("TURBOPACK compile-time value", void 0))
     }, void 0, false, {
         fileName: "[project]/components/WhyChooseArea.tsx",
-        lineNumber: 151,
+        lineNumber: 145,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };
@@ -4708,7 +4677,7 @@ const WhyChooseArea3 = ()=>{
                 alt: "pattern-3"
             }, void 0, false, {
                 fileName: "[project]/components/WhyChooseArea.tsx",
-                lineNumber: 218,
+                lineNumber: 212,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4729,7 +4698,7 @@ const WhyChooseArea3 = ()=>{
                                                 children: "WHO WE ARE"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/WhyChooseArea.tsx",
-                                                lineNumber: 228,
+                                                lineNumber: 222,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -4738,14 +4707,14 @@ const WhyChooseArea3 = ()=>{
                                                     "Transform Your Best Practice ",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                         fileName: "[project]/components/WhyChooseArea.tsx",
-                                                        lineNumber: 230,
+                                                        lineNumber: 224,
                                                         columnNumber: 48
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     "with Our Online Course"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/WhyChooseArea.tsx",
-                                                lineNumber: 229,
+                                                lineNumber: 223,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4753,13 +4722,13 @@ const WhyChooseArea3 = ()=>{
                                                 children: "Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit. Excepteur sint occaecat."
                                             }, void 0, false, {
                                                 fileName: "[project]/components/WhyChooseArea.tsx",
-                                                lineNumber: 233,
+                                                lineNumber: 227,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/WhyChooseArea.tsx",
-                                        lineNumber: 227,
+                                        lineNumber: 221,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4778,25 +4747,25 @@ const WhyChooseArea3 = ()=>{
                                                                     alt: "icon"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/WhyChooseArea.tsx",
-                                                                    lineNumber: 243,
+                                                                    lineNumber: 237,
                                                                     columnNumber: 23
                                                                 }, ("TURBOPACK compile-time value", void 0))
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/WhyChooseArea.tsx",
-                                                                lineNumber: 242,
+                                                                lineNumber: 236,
                                                                 columnNumber: 21
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h5", {
                                                                 children: "Face-to-face Teaching"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/WhyChooseArea.tsx",
-                                                                lineNumber: 248,
+                                                                lineNumber: 242,
                                                                 columnNumber: 21
                                                             }, ("TURBOPACK compile-time value", void 0))
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/WhyChooseArea.tsx",
-                                                        lineNumber: 241,
+                                                        lineNumber: 235,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4805,18 +4774,18 @@ const WhyChooseArea3 = ()=>{
                                                             children: "Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia for this is a for that an deserunt mollit."
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/WhyChooseArea.tsx",
-                                                            lineNumber: 251,
+                                                            lineNumber: 245,
                                                             columnNumber: 21
                                                         }, ("TURBOPACK compile-time value", void 0))
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/WhyChooseArea.tsx",
-                                                        lineNumber: 250,
+                                                        lineNumber: 244,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/WhyChooseArea.tsx",
-                                                lineNumber: 240,
+                                                lineNumber: 234,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4832,25 +4801,25 @@ const WhyChooseArea3 = ()=>{
                                                                     alt: "icon"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/WhyChooseArea.tsx",
-                                                                    lineNumber: 262,
+                                                                    lineNumber: 256,
                                                                     columnNumber: 23
                                                                 }, ("TURBOPACK compile-time value", void 0))
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/WhyChooseArea.tsx",
-                                                                lineNumber: 261,
+                                                                lineNumber: 255,
                                                                 columnNumber: 21
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h5", {
                                                                 children: "24/7 Support Available"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/WhyChooseArea.tsx",
-                                                                lineNumber: 267,
+                                                                lineNumber: 261,
                                                                 columnNumber: 21
                                                             }, ("TURBOPACK compile-time value", void 0))
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/WhyChooseArea.tsx",
-                                                        lineNumber: 260,
+                                                        lineNumber: 254,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4859,35 +4828,35 @@ const WhyChooseArea3 = ()=>{
                                                             children: "Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia for this is a for that an deserunt mollit."
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/WhyChooseArea.tsx",
-                                                            lineNumber: 270,
+                                                            lineNumber: 264,
                                                             columnNumber: 21
                                                         }, ("TURBOPACK compile-time value", void 0))
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/WhyChooseArea.tsx",
-                                                        lineNumber: 269,
+                                                        lineNumber: 263,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/WhyChooseArea.tsx",
-                                                lineNumber: 259,
+                                                lineNumber: 253,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/WhyChooseArea.tsx",
-                                        lineNumber: 238,
+                                        lineNumber: 232,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/WhyChooseArea.tsx",
-                                lineNumber: 226,
+                                lineNumber: 220,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         }, void 0, false, {
                             fileName: "[project]/components/WhyChooseArea.tsx",
-                            lineNumber: 225,
+                            lineNumber: 219,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4904,7 +4873,7 @@ const WhyChooseArea3 = ()=>{
                                                 alt: "why-choose-img-1"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/WhyChooseArea.tsx",
-                                                lineNumber: 284,
+                                                lineNumber: 278,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -4913,13 +4882,13 @@ const WhyChooseArea3 = ()=>{
                                                 alt: "why-choose-img-2"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/WhyChooseArea.tsx",
-                                                lineNumber: 289,
+                                                lineNumber: 283,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/WhyChooseArea.tsx",
-                                        lineNumber: 283,
+                                        lineNumber: 277,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4931,12 +4900,12 @@ const WhyChooseArea3 = ()=>{
                                                     className: "fi fi-rr-graduation-cap"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/WhyChooseArea.tsx",
-                                                    lineNumber: 298,
+                                                    lineNumber: 292,
                                                     columnNumber: 19
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             }, void 0, false, {
                                                 fileName: "[project]/components/WhyChooseArea.tsx",
-                                                lineNumber: 297,
+                                                lineNumber: 291,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4950,38 +4919,38 @@ const WhyChooseArea3 = ()=>{
                                                                     end: 9394
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/WhyChooseArea.tsx",
-                                                                    lineNumber: 303,
+                                                                    lineNumber: 297,
                                                                     columnNumber: 23
                                                                 }, ("TURBOPACK compile-time value", void 0))
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/WhyChooseArea.tsx",
-                                                                lineNumber: 302,
+                                                                lineNumber: 296,
                                                                 columnNumber: 21
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             "+"
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/WhyChooseArea.tsx",
-                                                        lineNumber: 301,
+                                                        lineNumber: 295,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                         children: "Enrolled Learners"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/WhyChooseArea.tsx",
-                                                        lineNumber: 307,
+                                                        lineNumber: 301,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/WhyChooseArea.tsx",
-                                                lineNumber: 300,
+                                                lineNumber: 294,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/WhyChooseArea.tsx",
-                                        lineNumber: 296,
+                                        lineNumber: 290,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4993,7 +4962,7 @@ const WhyChooseArea3 = ()=>{
                                                 alt: "shape-1"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/WhyChooseArea.tsx",
-                                                lineNumber: 312,
+                                                lineNumber: 306,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -5002,41 +4971,41 @@ const WhyChooseArea3 = ()=>{
                                                 alt: "pattern-2"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/WhyChooseArea.tsx",
-                                                lineNumber: 317,
+                                                lineNumber: 311,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/WhyChooseArea.tsx",
-                                        lineNumber: 311,
+                                        lineNumber: 305,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/WhyChooseArea.tsx",
-                                lineNumber: 281,
+                                lineNumber: 275,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         }, void 0, false, {
                             fileName: "[project]/components/WhyChooseArea.tsx",
-                            lineNumber: 280,
+                            lineNumber: 274,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/WhyChooseArea.tsx",
-                    lineNumber: 224,
+                    lineNumber: 218,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/components/WhyChooseArea.tsx",
-                lineNumber: 223,
+                lineNumber: 217,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/components/WhyChooseArea.tsx",
-        lineNumber: 217,
+        lineNumber: 211,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };
@@ -5061,7 +5030,7 @@ const WhyChooseArea5 = ()=>{
                                             children: "WHY CHOOSE EDUNA"
                                         }, void 0, false, {
                                             fileName: "[project]/components/WhyChooseArea.tsx",
-                                            lineNumber: 339,
+                                            lineNumber: 333,
                                             columnNumber: 17
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -5070,14 +5039,14 @@ const WhyChooseArea5 = ()=>{
                                                 "Digital Online Academy: Your ",
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                     fileName: "[project]/components/WhyChooseArea.tsx",
-                                                    lineNumber: 343,
+                                                    lineNumber: 337,
                                                     columnNumber: 48
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 "Path to Creative Excellence"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/WhyChooseArea.tsx",
-                                            lineNumber: 342,
+                                            lineNumber: 336,
                                             columnNumber: 17
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5085,13 +5054,13 @@ const WhyChooseArea5 = ()=>{
                                             children: "Excedteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit."
                                         }, void 0, false, {
                                             fileName: "[project]/components/WhyChooseArea.tsx",
-                                            lineNumber: 346,
+                                            lineNumber: 340,
                                             columnNumber: 17
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/WhyChooseArea.tsx",
-                                    lineNumber: 338,
+                                    lineNumber: 332,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5106,14 +5075,14 @@ const WhyChooseArea5 = ()=>{
                                                         alt: "icon-check-blue"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/WhyChooseArea.tsx",
-                                                        lineNumber: 354,
+                                                        lineNumber: 348,
                                                         columnNumber: 21
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     "Our Expert Trainers"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/WhyChooseArea.tsx",
-                                                lineNumber: 353,
+                                                lineNumber: 347,
                                                 columnNumber: 19
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -5123,14 +5092,14 @@ const WhyChooseArea5 = ()=>{
                                                         alt: "icon-check-blue"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/WhyChooseArea.tsx",
-                                                        lineNumber: 361,
+                                                        lineNumber: 355,
                                                         columnNumber: 21
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     "Online Remote Learning"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/WhyChooseArea.tsx",
-                                                lineNumber: 360,
+                                                lineNumber: 354,
                                                 columnNumber: 19
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -5140,14 +5109,14 @@ const WhyChooseArea5 = ()=>{
                                                         alt: "icon-check-blue"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/WhyChooseArea.tsx",
-                                                        lineNumber: 368,
+                                                        lineNumber: 362,
                                                         columnNumber: 21
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     "Easy to follow curriculum"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/WhyChooseArea.tsx",
-                                                lineNumber: 367,
+                                                lineNumber: 361,
                                                 columnNumber: 19
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -5157,36 +5126,36 @@ const WhyChooseArea5 = ()=>{
                                                         alt: "icon-check-blue"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/WhyChooseArea.tsx",
-                                                        lineNumber: 375,
+                                                        lineNumber: 369,
                                                         columnNumber: 21
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     "Lifetime Access"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/WhyChooseArea.tsx",
-                                                lineNumber: 374,
+                                                lineNumber: 368,
                                                 columnNumber: 19
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/WhyChooseArea.tsx",
-                                        lineNumber: 352,
+                                        lineNumber: 346,
                                         columnNumber: 17
                                     }, ("TURBOPACK compile-time value", void 0))
                                 }, void 0, false, {
                                     fileName: "[project]/components/WhyChooseArea.tsx",
-                                    lineNumber: 351,
+                                    lineNumber: 345,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/WhyChooseArea.tsx",
-                            lineNumber: 337,
+                            lineNumber: 331,
                             columnNumber: 13
                         }, ("TURBOPACK compile-time value", void 0))
                     }, void 0, false, {
                         fileName: "[project]/components/WhyChooseArea.tsx",
-                        lineNumber: 335,
+                        lineNumber: 329,
                         columnNumber: 11
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5201,12 +5170,12 @@ const WhyChooseArea5 = ()=>{
                                         alt: "about-img"
                                     }, void 0, false, {
                                         fileName: "[project]/components/WhyChooseArea.tsx",
-                                        lineNumber: 389,
+                                        lineNumber: 383,
                                         columnNumber: 17
                                     }, ("TURBOPACK compile-time value", void 0))
                                 }, void 0, false, {
                                     fileName: "[project]/components/WhyChooseArea.tsx",
-                                    lineNumber: 388,
+                                    lineNumber: 382,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5218,12 +5187,12 @@ const WhyChooseArea5 = ()=>{
                                                 className: "fi fi-rr-graduation-cap"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/WhyChooseArea.tsx",
-                                                lineNumber: 396,
+                                                lineNumber: 390,
                                                 columnNumber: 19
                                             }, ("TURBOPACK compile-time value", void 0))
                                         }, void 0, false, {
                                             fileName: "[project]/components/WhyChooseArea.tsx",
-                                            lineNumber: 395,
+                                            lineNumber: 389,
                                             columnNumber: 17
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5236,33 +5205,33 @@ const WhyChooseArea5 = ()=>{
                                                             children: "3458"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/WhyChooseArea.tsx",
-                                                            lineNumber: 400,
+                                                            lineNumber: 394,
                                                             columnNumber: 21
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         "+"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/WhyChooseArea.tsx",
-                                                    lineNumber: 399,
+                                                    lineNumber: 393,
                                                     columnNumber: 19
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                     children: "Satisfied Students"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/WhyChooseArea.tsx",
-                                                    lineNumber: 402,
+                                                    lineNumber: 396,
                                                     columnNumber: 19
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/WhyChooseArea.tsx",
-                                            lineNumber: 398,
+                                            lineNumber: 392,
                                             columnNumber: 17
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/WhyChooseArea.tsx",
-                                    lineNumber: 394,
+                                    lineNumber: 388,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5274,7 +5243,7 @@ const WhyChooseArea5 = ()=>{
                                             alt: "shape-1"
                                         }, void 0, false, {
                                             fileName: "[project]/components/WhyChooseArea.tsx",
-                                            lineNumber: 406,
+                                            lineNumber: 400,
                                             columnNumber: 17
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -5283,7 +5252,7 @@ const WhyChooseArea5 = ()=>{
                                             alt: "shape-2"
                                         }, void 0, false, {
                                             fileName: "[project]/components/WhyChooseArea.tsx",
-                                            lineNumber: 411,
+                                            lineNumber: 405,
                                             columnNumber: 17
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -5292,40 +5261,40 @@ const WhyChooseArea5 = ()=>{
                                             alt: "shape-3"
                                         }, void 0, false, {
                                             fileName: "[project]/components/WhyChooseArea.tsx",
-                                            lineNumber: 416,
+                                            lineNumber: 410,
                                             columnNumber: 17
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/WhyChooseArea.tsx",
-                                    lineNumber: 405,
+                                    lineNumber: 399,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/WhyChooseArea.tsx",
-                            lineNumber: 387,
+                            lineNumber: 381,
                             columnNumber: 13
                         }, ("TURBOPACK compile-time value", void 0))
                     }, void 0, false, {
                         fileName: "[project]/components/WhyChooseArea.tsx",
-                        lineNumber: 385,
+                        lineNumber: 379,
                         columnNumber: 11
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/WhyChooseArea.tsx",
-                lineNumber: 334,
+                lineNumber: 328,
                 columnNumber: 9
             }, ("TURBOPACK compile-time value", void 0))
         }, void 0, false, {
             fileName: "[project]/components/WhyChooseArea.tsx",
-            lineNumber: 333,
+            lineNumber: 327,
             columnNumber: 7
         }, ("TURBOPACK compile-time value", void 0))
     }, void 0, false, {
         fileName: "[project]/components/WhyChooseArea.tsx",
-        lineNumber: 332,
+        lineNumber: 326,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };
@@ -5451,12 +5420,12 @@ const page = ()=>{
                 className: "section-bg background-image section-bg-3",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$CallToAction$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["CallToAction1"], {}, void 0, false, {
                     fileName: "[project]/app/page.tsx",
-                    lineNumber: 28,
+                    lineNumber: 27,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/app/page.tsx",
-                lineNumber: 26,
+                lineNumber: 25,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0))
         ]

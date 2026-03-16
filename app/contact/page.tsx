@@ -75,7 +75,6 @@ const page = () => {
         </div>
       </div>
       <StudentInquiryForm />
-      <CallToAction1 />
     </EdunaLayout>
   );
 };

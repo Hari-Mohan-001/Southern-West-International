@@ -15,19 +15,19 @@ const PageBanner = ({
         
         {/* Left Shape */}
         <Image
-          src="/assets/images/page-banner/shape-1.svg"
+          src="/assets/images/page-banner/right-shape.png"
           alt="shape-left"
-          width={120}
-          height={120}
+          width={200}
+          height={200}
           className="banner-shape banner-shape-left"
         />
 
         {/* Right Shape */}
         <Image
-          src="/assets/images/page-banner/shape-2.svg"
+          src="/assets/images/page-banner/left-shape.png"
           alt="shape-right"
-          width={120}
-          height={120}
+          width={200}
+          height={200}
           className="banner-shape banner-shape-right"
         />
 

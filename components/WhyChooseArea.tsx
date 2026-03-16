@@ -99,13 +99,7 @@ export const WhyChooseArea1 = () => {
               {/* Shapes Elements */}
               <div className="ed-w-choose__shapes">
               
-                <Image
-                  width={70}
-                  height={50}
-                  className="ed-w-choose__shape-2"
-                  src="/assets/images/why-choose/why-choose-1/pattern-2.svg"
-                  alt="pattern-2"
-                />
+             
               </div>
             </div>
           </div>

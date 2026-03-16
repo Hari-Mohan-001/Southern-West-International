@@ -468,14 +468,14 @@ const MobileMenu = ({
 }) => {
   const [activeMenu, setActiveMenu] = useState<string>("");
   const [multiMenu, setMultiMenu] = useState<string>("");
-  const activeMenuSet = (value: string) =>
-      setActiveMenu(activeMenu === value ? "" : value),
-    activeLi = (value: string) =>
-      value === activeMenu ? { display: "block" } : { display: "none" };
-  const multiMenuSet = (value: string) =>
-      setMultiMenu(multiMenu === value ? "" : value),
-    multiMenuActiveLi = (value: string) =>
-      value === multiMenu ? { display: "block" } : { display: "none" };
+  // const activeMenuSet = (value: string) =>
+  //     setActiveMenu(activeMenu === value ? "" : value),
+  //   activeLi = (value: string) =>
+  //     value === activeMenu ? { display: "block" } : { display: "none" };
+  // const multiMenuSet = (value: string) =>
+  //     setMultiMenu(multiMenu === value ? "" : value),
+  //   multiMenuActiveLi = (value: string) =>
+  //     value === multiMenu ? { display: "block" } : { display: "none" };
   return (
     <Modal
       className="modal mobile-menu-modal offcanvas-modal fade"
@@ -489,7 +489,7 @@ const MobileMenu = ({
             <Image
               width={140}
               height={34}
-              src="/assets/images/logo.svg"
+              src="/assets/images/header-logo.png"
               alt="logo"
             />
           </Link>
@@ -506,136 +506,37 @@ const MobileMenu = ({
               <Link className="offcanvas__menu_item active" href="/">
                 Home
               </Link>
-              <ul className="offcanvas__sub_menu" style={activeLi("home")}>
-                <li className="offcanvas__sub_menu_li">
-                  <Link href="/" className="offcanvas__sub_menu_item">
-                    Home One
-                  </Link>
-                </li>
-                <li className="offcanvas__sub_menu_li">
-                  <Link
-                    href="/index-2"
-                    className="offcanvas__sub_menu_item active"
-                  >
-                    Home Two
-                  </Link>
-                </li>
-              </ul>
-              <button
-                className="offcanvas__sub_menu_toggle"
-                onClick={() => activeMenuSet("home")}
-              />
+             
             </li>
             <li className="offcanvas__menu_li">
-              <Link className="offcanvas__menu_item" href="/course-1">
-                Courses
+              <Link className="offcanvas__menu_item" href="/countries">
+                Countries
               </Link>
-              <ul className="offcanvas__sub_menu" style={activeLi("course")}>
-                <li className="offcanvas__sub_menu_li">
-                  <Link href="/course-1" className="offcanvas__sub_menu_item">
-                    Course
-                  </Link>
-                </li>
-                <li className="offcanvas__sub_menu_li">
-                  <Link
-                    href="/course-details"
-                    className="offcanvas__sub_menu_item"
-                  >
-                    Course Details
-                  </Link>
-                </li>
-              </ul>
-              <button
-                className="offcanvas__sub_menu_toggle"
-                onClick={() => activeMenuSet("course")}
-              />
+           
+              
             </li>
             <li className="offcanvas__menu_li">
-              <a className="offcanvas__menu_item" href="javascript:void(0)">
-                Pages
+              <a className="offcanvas__menu_item" href="/services">
+                Services
               </a>
-              <ul className="offcanvas__sub_menu" style={activeLi("pages")}>
-                <li className="offcanvas__sub_menu_li">
-                  <Link href="/instructor" className="offcanvas__sub_menu_item">
-                    Instructors
-                  </Link>
-                  <ul
-                    className="offcanvas__sub_menu"
-                    style={multiMenuActiveLi("instructor")}
-                  >
-                    <li className="offcanvas__sub_menu_li">
-                      <Link
-                        href="/instructor"
-                        className="offcanvas__sub_menu_item"
-                      >
-                        Instructor
-                      </Link>
-                    </li>
-                    <li className="offcanvas__sub_menu_li">
-                      <Link
-                        href="/instructor-details"
-                        className="offcanvas__sub_menu_item"
-                      >
-                        Instructor Details
-                      </Link>
-                    </li>
-                  </ul>
-                  <button
-                    className="offcanvas__sub_menu_toggle"
-                    onClick={() => multiMenuSet("instructor")}
-                  />
-                </li>
-                <li className="offcanvas__sub_menu_li">
-                  <Link href="/faq" className="offcanvas__sub_menu_item">
-                    Faq
-                  </Link>
-                </li>
-                <li className="offcanvas__sub_menu_li">
-                  <Link href="/404" className="offcanvas__sub_menu_item">
-                    404 Error
-                  </Link>
-                </li>
-              </ul>
-              <button
-                className="offcanvas__sub_menu_toggle"
-                onClick={() => activeMenuSet("pages")}
-              />
+             
+            
             </li>
             <li className="offcanvas__menu_li">
-              <Link className="offcanvas__menu_item" href="/blog">
-                News
+              <Link className="offcanvas__menu_item" href="/faq">
+                Faq
               </Link>
-              <ul
-                className="offcanvas__sub_menu"
-                style={multiMenuActiveLi("news")}
-              >
-                <li className="offcanvas__sub_menu_li">
-                  <Link href="/blog" className="offcanvas__sub_menu_item">
-                    Blog
-                  </Link>
-                </li>
-                <li className="offcanvas__sub_menu_li">
-                  <Link
-                    href="/blog-details"
-                    className="offcanvas__sub_menu_item"
-                  >
-                    Blog Details
-                  </Link>
-                </li>
-              </ul>
-              <button
-                className="offcanvas__sub_menu_toggle"
-                onClick={() => multiMenuSet("news")}
-              />
+              
+              
             </li>
             <li className="offcanvas__sub_menu_li">
-              <Link href="/about-1" className="offcanvas__menu_item">
+              <Link href="/about" className="offcanvas__menu_item">
                 About
               </Link>
             </li>
             <li className="offcanvas__menu_li">
               <Link className="offcanvas__menu_item" href="/contact">
-                Contact
+                Contact Us
               </Link>
             </li>
           </ul>

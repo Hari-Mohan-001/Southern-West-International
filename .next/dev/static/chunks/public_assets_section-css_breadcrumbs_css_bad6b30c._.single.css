@@ -54,7 +54,7 @@
 }
 
 .page-banner {
-  background-color: #8f728d;
+  background-color: #9dc2c7;
   border-radius: 20px;
   padding: 80px 20px;
   position: relative;
@@ -90,7 +90,6 @@
 }
 
 .banner-shape {
-  opacity: .7;
   z-index: 1;
   position: absolute;
   top: 50%;
@@ -98,10 +97,12 @@
 }
 
 .banner-shape-left {
+  border-radius: 100px;
   left: 20px;
 }
 
 .banner-shape-right {
+  border-radius: 100px;
   right: 20px;
 }
 
@@ -111,7 +112,7 @@
   }
 
   .banner-shape {
-    width: 80px;
+    width: 50px;
     height: auto;
   }
 }
@@ -126,7 +127,7 @@
   }
 
   .banner-shape {
-    opacity: .4;
+    opacity: .9;
     width: 60px;
   }
 }

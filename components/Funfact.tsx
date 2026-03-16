@@ -16,12 +16,12 @@ export const Funfact1 = () => {
         <div className="ed-funfact__inner">
           <div className="ed-funfact__img">
             <Image
-              width={554}
-              height={316}
-              sizes="554px"
-              style={{ width: "554px", height: "316px" }}
-              src="/assets/images/funfact/funfact-1/funfact-img.jpg"
-              alt="funfact-img"
+             src="/assets/images/funfact/funfact-1/funfact-img.jpg"
+    alt="funfact-img"
+    width={554}
+    height={316}
+    sizes="(max-width: 768px) 100vw, 554px"
+    style={{ width: "100%", height: "auto" }}
             />
           </div>
           <div className="ed-funfact__content">
