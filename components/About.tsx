@@ -33,7 +33,7 @@ export const About1 = () => {
                 <div className="counter-card__info">
                   <h4>
                     <span className="counter">
-                      <Counter end={150} />
+                      <Counter end={500} />
                     </span>
                     +
                   </h4>

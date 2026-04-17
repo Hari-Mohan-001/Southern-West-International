@@ -20,6 +20,15 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "Southern West International - Study Abroad",
   description: "Southern West International - Overseas Education/ Study Abroad",
+  icons: {
+    icon: [
+      { url: "/favicon.ico" },
+       { url: "/logo1.png", sizes: "180x180", type: "image/png" },
+      
+   
+    ],
+    apple: "/apple-touch-icon.png",
+  },
 };
 
 export default function RootLayout({

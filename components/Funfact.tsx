@@ -3,7 +3,7 @@ import Counter from "./Counter";
 
 export const Funfact1 = () => {
   const funfacts: { id: number; name: string; value: number }[] = [
-    { id: 1, name: "Successfull Students", value: 150 },
+    { id: 1, name: "Successfull Students", value: 500 },
     { id: 2, name: "Countries", value: 30 },
     { id: 3, name: "Universities", value: 800 },
     { id: 4, name: "Courses", value: 500 },
