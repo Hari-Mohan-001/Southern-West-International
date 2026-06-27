@@ -24,7 +24,7 @@
   --ed-paragraph-color: #5f5d5d;
   --ed-border-color: #f0f2f2;
   --ed-font-family: "Poppins", sans-serif;
-  --ed-font-family-2: Aeonik Pro TRIAL, sans-serif;
+  --ed-font-family-2:  sans-serif;
 }
 
 *,
@@ -87,32 +87,7 @@ body {
 }
 
 /* Custom Fonts  */
-@font-face {
-  font-family: "Aeonik Pro TRIAL";
-  src: url("../fonts/webfonts/AeonikProTRIAL-Bold.woff2") format("woff2"),
-    url("../fonts/webfonts/AeonikProTRIAL-Bold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
 
-@font-face {
-  font-family: "Aeonik Pro TRIAL";
-  src: url("../fonts/webfonts/AeonikProTRIAL-Regular.woff2") format("woff2"),
-    url("../fonts/webfonts/AeonikProTRIAL-Regular.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Aeonik Pro TRIAL";
-  src: url("../fonts/webfonts/AeonikProTRIAL-Light.woff2") format("woff2"),
-    url("../fonts/webfonts/AeonikProTRIAL-Light.woff") format("woff");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
 
 /* Main Container */
 .ed-container {

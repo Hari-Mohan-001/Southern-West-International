@@ -14,15 +14,7 @@ export const Hero1 = () => {
         <div className="container ed-container-expand">
           {/* Hero Element Shape */}
           <div className="ed-hero__elements">
-            <Image
-              width={46}
-              height={32}
-              sizes="46px"
-              style={{ width: "46px", height: "32px" }}
-              className="element-move ed-hero__shape-1"
-              src="/assets/images/hero/home-1/shape-1.svg"
-              alt="shape-1"
-            />
+            
           
             <Image
               width={70}
@@ -47,7 +39,7 @@ export const Hero1 = () => {
 
                 <div className="hero-divider"></div>
 
-                <h3 className="brand-quote">Education Without Boundaries</h3>
+                <h3 className="brand-quote">Overseas Education Without Boundaries</h3>
 
                 <div className="ed-hero__btn">
                   <Link href="/contact" className="ed-btn">

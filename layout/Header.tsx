@@ -443,7 +443,7 @@ const Nav = () => {
           <Link href="/services"> Services </Link> 
         </li>
         <li>
-          <Link href="/about-1">About</Link>
+          <Link href="/about">About</Link>
         </li>  
         <li>
           <Link href="/contact">Contact</Link>
@@ -551,22 +551,22 @@ const Social = () => {
     {
       id: 1,
       icon: "/assets/images/icons/icon-dark-facebook.svg",
-      link: "https://www.facebook.com/",
+      link: "https://www.facebook.com/southernwestinternational"
     },
-    {
-      id: 2,
-      icon: "/assets/images/icons/icon-dark-twitter.svg",
-      link: "https://www.twitter.com/",
-    },
-    {
-      id: 3,
-      icon: "/assets/images/icons/icon-dark-dribbble.svg",
-      link: "https://www.dribbble.com/",
-    },
+    // {
+    //   id: 2,
+    //   icon: "/assets/images/icons/icon-dark-twitter.svg",
+    //   link: "https://www.twitter.com/",
+    // },
+    // {
+    //   id: 3,
+    //   icon: "/assets/images/icons/icon-dark-dribbble.svg",
+    //   link: "https://www.dribbble.com/",
+    // },
     {
       id: 4,
       icon: "/assets/images/icons/icon-dark-instagram.svg",
-      link: "https://www.instagram.com/",
+      link: "https://www.instagram.com/southernwestinternational"
     },
   ];
   return (
