@@ -1,3 +1,4 @@
+
 import { About1 } from "@/components/About";
 import { Blog1 } from "@/components/Blog";
 import { CallToAction1 } from "@/components/CallToAction";
@@ -12,7 +13,7 @@ const page = () => {
   return (
     <EdunaLayout>
       <PageBanner pageName="About Us" />
-      <About1 />
+      <About1/>
       <Features1 />
       {/* <Category2 /> */}
       <Partner2 />
